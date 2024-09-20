@@ -1,9 +1,10 @@
+body{
+   background-color: indigo;
+   font-family: Arial, Helvetica, sans-serif;
 
-   body {
-      background: [#CF9DFA];
-      font-family: Arial, Helvetica, sans-serif;
-      }
-   h2 {
-      color: [#7F69FA];
-      text-align: center;
-      }
+}
+h1{
+   color:#CF9DFA
+   text-align: center;
+
+}
