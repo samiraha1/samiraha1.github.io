@@ -2,8 +2,9 @@
 
 /*typography*/
 h1{
-    color:midnightblue
+    color:midnightblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 h2{
-    color:cornflowerblue
+    color:cornflowerblue;
 }
