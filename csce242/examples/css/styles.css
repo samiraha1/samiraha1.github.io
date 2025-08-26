@@ -7,7 +7,7 @@ div{
     width:70%;
     margin:auto; /*center*/
     padding:10px /*get text away from edge*/
-    border-radius:5px; /*round corners*/
+    border:5px; /*round corners*/
 }
 /*typography*/
 h1{
@@ -16,4 +16,9 @@ h1{
 }
 h2{
     color:cornflowerblue;
+}
+/*table*/
+td, th{
+    border:2px lightseagreen
+    padding: 5px;
 }
