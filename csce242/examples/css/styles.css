@@ -1,6 +1,7 @@
 /*structure*/
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background:url("images/jungle.jpg");
 }
 div{
     background:honeydew;
@@ -8,6 +9,13 @@ div{
     margin:auto; /*center*/
     padding:10px /*get text away from edge*/
     /*border:5px; round corners*/
+}
+#content{
+    background:honeydew;
+    width:70%;
+    margin:auto; /*center*/
+    padding:10px /*get text away from edge*/
+    border-radius:5px; /*round corners*/
 }
 /*typography*/
 h1{
