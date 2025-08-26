@@ -23,6 +23,6 @@ th{
     color:cadetblue
 }
 td, th{
-    border:2px lightseagreen
+    border:2px cadetblue
     padding: 5px 10px; /*top and bottom 5, right and left 10*/
 }
