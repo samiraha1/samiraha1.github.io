@@ -22,6 +22,9 @@ th{
     background:honeydew;
     color:cadetblue
 }
+#giraffe.jpg {
+    box-shadow: 7px 7px midnightblue;
+}
 td, th{
     border:2px cadetblue
     padding: 5px 10px; /*top and bottom 5, right and left 10*/
