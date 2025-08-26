@@ -5,6 +5,7 @@ body{
 div{
     background:honeydew;
     width:70%;
+    margin:auto; /*center*?
 }
 /*typography*/
 h1{
