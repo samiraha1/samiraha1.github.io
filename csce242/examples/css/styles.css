@@ -20,5 +20,5 @@ h2{
 /*table*/
 td, th{
     border:2px lightseagreen
-    padding: 5px;
+    padding: 5px 10px; /*top and bottom 5, right and left 10*/
 }
