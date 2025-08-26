@@ -14,8 +14,8 @@ div{
     background:honeydew;
     width:70%;
     margin:auto; /*center*/
-    padding:10px /*get text away from edge*/
-    border-radius:5px; /*round corners*/
+    padding:10px; /*get text away from edge*/
+    border-radius: 5px; /*round corners*/
 }
 /*typography*/
 h1{
