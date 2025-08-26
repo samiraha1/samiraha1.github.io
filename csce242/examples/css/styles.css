@@ -5,7 +5,8 @@ body{
 div{
     background:honeydew;
     width:70%;
-    margin:auto; /*center*?
+    margin:auto; /*center*/
+    padding:10px /*get text away from edge*/
 }
 /*typography*/
 h1{
