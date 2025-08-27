@@ -1,5 +1,5 @@
 body{
-    background:rgb(128, 25, 41)
+    background:#d67a94
 }
 img{
     width: 200px;;
@@ -14,7 +14,7 @@ h1{
     color:rgb(179, 89, 108)
 }
 div{
-    background: #F2CED8;
+    background:  rgb(128, 25, 41);
     margin:auto;
     padding:5px;
     padding-bottom: 20px;
