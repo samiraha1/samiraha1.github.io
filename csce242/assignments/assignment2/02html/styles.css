@@ -14,9 +14,9 @@ h1{
     color:rgb(179, 89, 108)
 }
 div{
-    background: rgb(104, 53, 54);
+    background: #F2CED8;
     margin:auto;
-    padding:10px;
+    padding:5px;
     padding-bottom: 20px;
     width:90%;
 }
