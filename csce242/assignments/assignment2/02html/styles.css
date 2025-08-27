@@ -2,6 +2,6 @@ body{
     background:rgb(214, 57, 96)
 }
 img{
-    width:fit-content;
-    height:fit-content
+    width:auto;
+    height:auto;
 }
