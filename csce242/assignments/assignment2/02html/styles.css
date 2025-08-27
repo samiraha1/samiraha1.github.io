@@ -4,7 +4,7 @@ body{
 img{
     width: 200px;;
     height:200px;
-    border: 5px;
+    border: 5px black;
 }
 td, th{
     background-color: rgb(179, 89, 108);
