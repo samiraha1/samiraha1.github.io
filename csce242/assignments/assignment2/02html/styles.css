@@ -31,6 +31,6 @@ div{
     width:90%;
     text-align: center;
 }
-.table{
-    margin:auto;
+#table{
+   text-align:center;
 }
