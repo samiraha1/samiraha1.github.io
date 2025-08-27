@@ -8,7 +8,7 @@ img{
 tr{
     background-color: rgb(179, 89, 108);
     /*border:2px rgb(54, 11, 20);*/
-    padding: 5px 10px; /*top and bottom 5, right and left 10*/
+    padding: 10px 15px; /*top and bottom 5, right and left 10*/
 }
 h1{
     color:rgb(179, 89, 108)
