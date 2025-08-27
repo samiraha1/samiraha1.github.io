@@ -14,8 +14,8 @@ a {
     text-decoration: none;
 }
 img{
-    width:auto;
-    height:auto;
+    width:fit-content;
+    height:fit-content;
 }
 h3{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
