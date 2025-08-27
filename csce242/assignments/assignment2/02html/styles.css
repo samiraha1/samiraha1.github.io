@@ -13,3 +13,9 @@ td, th{
 h1{
     color:rgb(179, 89, 108)
 }
+div{
+    background: rgb(179, 89, 108);
+    margin:auto;
+    padding:10px;
+    width:80%;
+}
