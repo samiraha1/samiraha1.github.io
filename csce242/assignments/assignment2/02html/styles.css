@@ -5,3 +5,7 @@ img{
     width: 200px;;
     height:200px;
 }
+td, th{
+    border:2px rgb(59, 15, 24);
+    padding: 5px 10px; /*top and bottom 5, right and left 10*/
+}
