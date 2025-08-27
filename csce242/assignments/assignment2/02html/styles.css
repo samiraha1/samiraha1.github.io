@@ -1,3 +1,6 @@
 body{
     background:rgb(214, 57, 96)
 }
+img{
+    transform: scale(0.5);
+}
