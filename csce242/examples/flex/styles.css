@@ -5,7 +5,14 @@ body{
 #content{
     width: 95%;
     margin: auto;
-    background:#3E5902 0.6 ;
+    background:#3E5902 ;
+}
+#main-header{
+    color:#d5dfbf;
+    padding:5px;
+}
+h1{
+    text-align: center;
 }
 @media only screen and (min-width: 768px){
 body {
@@ -13,4 +20,5 @@ body {
     background-size:cover;
     opacity: 70%;
 }
+
 }
