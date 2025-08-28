@@ -1,5 +1,10 @@
+body{
+    background:#3E5902;
+}
+@media only screen and (min-width: 768px){
 body {
     background: url(images/tree.jpg);
     background-size:cover;
     opacity: 70%;
+}
 }
