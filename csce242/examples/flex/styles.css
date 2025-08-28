@@ -16,9 +16,8 @@ h1{
 }
 @media only screen and (min-width: 768px){
 body {
-    background: url(images/tree.jpg);
+    background: url(images/tree.jpg) 70%;
     background-size:cover;
-    opacity: 70%;
 }
 
 }
