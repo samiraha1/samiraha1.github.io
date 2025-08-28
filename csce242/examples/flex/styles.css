@@ -16,18 +16,23 @@ body{
 /*columns*/
 .columns {
     display:flex;
-    text-align: center;
 }
+
 /*main navigation*/
 #main-nav ul{
     list-style-type:none;
     padding-left:0;
 }
 #main-nav li {
-    border-bottom: 1px #d5dfbf;
+    border-bottom: none;
 }
 #main-nav li:first-child{
-    border-top:1px #d5dfbf
+    border-top:none;
+}
+#main-nav a:hover{
+    background:#3E5902;
+    color:#d5dfbf;
+    border-bottom:1px #d5dfbf;
 }
 #main-nav a {
     color:#d5dfbf;
