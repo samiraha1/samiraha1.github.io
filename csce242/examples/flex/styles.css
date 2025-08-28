@@ -11,6 +11,12 @@ body{
     color:#d5dfbf;
     padding:5px;
 }
+#main-nav ul{
+    list-style-type: georgian;
+}
+#main-nav li {
+    border-bottom: 1px 
+}
 #main-nav a {
     color:#d5dfbf;
     text-decoration: none;
