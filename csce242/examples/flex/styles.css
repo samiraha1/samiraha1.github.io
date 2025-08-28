@@ -14,7 +14,7 @@ body{
     padding:5px;
 }
 #main-nav ul{
-    list-style-type:armenian;
+    list-style-type:none;
     padding-left:0;
 }
 #main-nav li {
@@ -28,6 +28,10 @@ body{
     padding: 10px 5px;
     display: block;
     text-decoration: none;
+}
+#main-nav a:hover{
+    background:#d5dfbf;
+    color:#47630a
 }
 h1{
     text-align: center;
