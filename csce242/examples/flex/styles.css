@@ -1,5 +1,11 @@
 body{
     background:#3E5902;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#content{
+    width: 95%;
+    margin: auto;
+    background:#A0A603;
 }
 @media only screen and (min-width: 768px){
 body {
