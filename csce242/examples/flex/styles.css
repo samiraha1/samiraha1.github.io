@@ -15,10 +15,10 @@ body{
 }
 #main-nav ul{
     list-style-type:armenian;
+    padding-left:0;
 }
 #main-nav li {
     border-bottom: 1px #d5dfbf;
-    padding: 10px;
 }
 #main-nav li:first-child{
     border-top:1px #d5dfbf
