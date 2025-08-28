@@ -16,6 +16,7 @@ body{
 /*columns*/
 .columns {
     display:flex;
+    text-align: center;
 }
 /*main navigation*/
 #main-nav ul{
