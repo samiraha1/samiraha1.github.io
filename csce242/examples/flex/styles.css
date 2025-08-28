@@ -25,6 +25,7 @@ body{
 }
 #main-nav li {
     border-bottom: none;
+    
 }
 #main-nav li:first-child{
     border-top:none;
@@ -39,6 +40,7 @@ body{
     padding: 10px 5px;
     display: block;
     text-decoration: none;
+    text-align: center;
 }
 #main-nav a:hover{
     background:#d5dfbf;
