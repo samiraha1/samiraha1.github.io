@@ -17,12 +17,16 @@ body{
     list-style-type:armenian;
 }
 #main-nav li {
-    border-bottom: 1px ;
+    border-bottom: 1px #d5dfbf;
     padding: 10px;
+}
+#main-nav li:first-child{
+    border-top:1px #d5dfbf
 }
 #main-nav a {
     color:#d5dfbf;
-    padding: 5px;
+    padding: 10px 5px;
+    display: block;
     text-decoration: none;
 }
 h1{
