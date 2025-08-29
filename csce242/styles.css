@@ -28,3 +28,6 @@ div {
     margin: auto;
     padding: 10px
 }
+.assignments {
+    display:flex;
+}
