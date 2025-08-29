@@ -14,6 +14,7 @@ body {
 a {
     color:#ca6382;
     text-decoration: none;
+    text-align: center;
 }
 
 h3{
@@ -39,11 +40,19 @@ div {
     padding: 10px 5px;
     border:2px #ca6382;
 }
-#main-nav a {
-
-}
-img{
+.assignment img{
     width: 130px;
     height:70px;
     border:4px #732634;
+    margin: auto;
+    object-fit: contain;
+    display: block;
 }
+#main-nav a {
+
+}
+/* img{
+    width: 130px;
+    height:70px;
+    border:4px #732634;
+} */
