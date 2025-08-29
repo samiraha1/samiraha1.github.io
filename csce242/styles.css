@@ -30,4 +30,5 @@ div {
 }
 #assignments {
     display:flex;
+    text-align: center;
 }
