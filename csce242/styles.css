@@ -55,6 +55,9 @@ div {
     color:#ca6382 ;
     opacity: 0.4;
 }
+#main-nav {
+    display: flex;
+}
 /* img{
     width: 130px;
     height:70px;
