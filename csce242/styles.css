@@ -41,8 +41,8 @@ div {
     border:2px #ca6382;
 }
 .assignment img{
-    width: 300px;
-    height:210px;
+    /* width: 300px;
+    height:210px; */
     border:4px #732634;
     margin: auto;
     object-fit: contain;
