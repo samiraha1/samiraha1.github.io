@@ -48,8 +48,11 @@ div {
     object-fit: contain;
     display: block;
 }
-#main-nav a {
-
+.assignment p{
+    text-align: center;
+}
+#main-nav a:hover {
+    border:#ca6382;
 }
 /* img{
     width: 130px;
