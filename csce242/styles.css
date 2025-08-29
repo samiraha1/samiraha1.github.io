@@ -45,7 +45,7 @@ div {
     height:70px;
     border:4px #732634;
     margin: auto;
-    object-fit: contain;
+    /* object-fit: contain; */
     display: block;
 }
 #main-nav a {
