@@ -52,7 +52,8 @@ div {
     text-align: center;
 }
 #main-nav a:hover {
-    border:#ca6382;
+    color:#ca6382 ;
+    opacity: 0.4;
 }
 /* img{
     width: 130px;
