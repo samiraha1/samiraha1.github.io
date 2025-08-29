@@ -30,7 +30,14 @@ div {
 }
 .columns {
     display:flex;
-    text-align: center;
+    flex-wrap: wrap;
+}
+.assignment{
+    background:#8C2641;
+    width:20px;
+    margin: 5px;
+    padding: 10px 5px;
+    border:2px #ca6382;
 }
 #main-nav a {
 
