@@ -28,6 +28,6 @@ div {
     margin: auto;
     padding: 10px
 }
-.columns {
+#assignments {
     display:flex;
 }
