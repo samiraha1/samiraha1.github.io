@@ -57,6 +57,7 @@ div {
 }
 #main-nav {
     display: flex;
+    text-align: center;
 }
 /* img{
     width: 130px;
