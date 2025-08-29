@@ -34,7 +34,7 @@ div {
 }
 .assignment{
     background:#8C2641;
-    width:20px;
+    width:fit-content;
     margin: 5px;
     padding: 10px 5px;
     border:2px #ca6382;
