@@ -33,14 +33,14 @@ div {
     display:flex;
     flex-wrap: wrap;
 }
-.assignment{
+/* .assignment{
     background:#8C2641;
     width:fit-content;
     margin: 5px;
     padding: 10px 5px;
     border:2px #ca6382;
-}
-.assignment img{
+} */
+.assignment1 img{
     width: 300px;
     height:210px;
     border:4px #732634;
@@ -48,8 +48,13 @@ div {
     object-fit: contain;
     display: block;
 }
-.assignment p{
-    text-align: center;
+.assignment2 img{
+    width: 200px;
+    height:210px;
+    border:4px #732634;
+    margin: auto;
+    object-fit: contain;
+    display: block;
 }
 #main-nav a:hover {
     color:#ca6382 ;
