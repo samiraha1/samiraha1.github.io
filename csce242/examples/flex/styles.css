@@ -53,7 +53,9 @@ h1{
 body {
     background: url(images/tree.jpg);
     background-size:cover;
-    
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
 
 }
 
