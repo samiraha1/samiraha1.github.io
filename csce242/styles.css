@@ -33,13 +33,13 @@ div {
     display:flex;
     flex-wrap: wrap;
 }
-/* .assignment{
+.assignment{
     background:#8C2641;
     width:fit-content;
     margin: 5px;
     padding: 10px 5px;
     border:2px #ca6382;
-} */
+}
 .assignment1 img{
     width: 300px;
     height:210px;
