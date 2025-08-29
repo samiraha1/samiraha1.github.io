@@ -28,7 +28,7 @@ div {
     margin: auto;
     padding: 10px
 }
-#assignments {
+.columns {
     display:flex;
     text-align: center;
 }
@@ -38,5 +38,5 @@ div {
 img{
     width: 130px;
     height:70px;
-    border:2px #732634;
+    border:4px #732634;
 }
