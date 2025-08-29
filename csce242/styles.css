@@ -40,7 +40,7 @@ div {
     padding: 10px 5px;
     border:2px #ca6382;
 }
-.assignment1 img{
+.assignment img{
     width: 300px;
     height:210px;
     border:4px #732634;
@@ -48,14 +48,7 @@ div {
     object-fit: contain;
     display: block;
 }
-.assignment2 img{
-    width: 200px;
-    height:210px;
-    border:4px #732634;
-    margin: auto;
-    object-fit: contain;
-    display: block;
-}
+
 #main-nav a:hover {
     color:#ca6382 ;
     opacity: 0.4;
