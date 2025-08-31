@@ -47,7 +47,7 @@ div {
 .assignment img{
     width: 400px;
     height:310px;
-    margin: auto;
+    /* margin: auto; */
     padding: 5px;
     object-fit: contain;
     display: block;
