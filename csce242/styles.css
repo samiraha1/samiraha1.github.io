@@ -62,10 +62,10 @@ div {
 /* only */
 @media screen and (min-width: 768px){
     body {
-        background-size:cover;
+        /* background-size:cover; */
         flex-direction: column;
-        flex-wrap: wrap;
-        display: flex;
+        /* flex-wrap: wrap;
+        display: flex; */
         
     
     }
