@@ -39,7 +39,7 @@ div {
     background:#8C2641;
     width:fit-content;
     margin: 8px;
-    padding: 6px;
+    /* padding: 6px; */
     border:2px #ca6382;
 }
 .assignment img{
