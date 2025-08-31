@@ -41,6 +41,7 @@ div {
     margin: 8px;
     /* padding: 6px; */
     border:2px #ca6382;
+    text-align: center;
 }
 .assignment img{
     width: 400px;
