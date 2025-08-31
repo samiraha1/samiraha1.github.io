@@ -52,7 +52,9 @@ div {
     object-fit: contain;
     display: block;
 }
-
+.assignments p{
+    padding:5px
+}
 #main-nav a:hover {
     color:#ca6382 ;
     opacity: 0.4;
