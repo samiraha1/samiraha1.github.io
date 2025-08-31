@@ -47,6 +47,7 @@ div {
     height:210px;
     border:4px #732634;
     margin: auto;
+    padding: 2px;
     object-fit: contain;
     display: block;
 }
