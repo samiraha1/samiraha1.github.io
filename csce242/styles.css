@@ -53,7 +53,8 @@ div {
     display: block;
 }
 .assignments p{
-    padding:5px
+    padding:5px;
+    margin:auto;
 }
 #main-nav a:hover {
     color:#ca6382 ;
