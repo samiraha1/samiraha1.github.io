@@ -22,6 +22,10 @@ img{
 } */
 
 /*main*/
+#main-nav{
+    display: flex;
+    justify-content: center;
+}
 #main-nav a{
     text-decoration: none;
     color:#EB7165;
@@ -51,7 +55,8 @@ img{
     justify-content: space-evenly;
     margin: 0;
     align-items: center;
-    width: auto;
+    width: 80%;
+    background: none;
 }
 #main-content{
     padding: 5px;
