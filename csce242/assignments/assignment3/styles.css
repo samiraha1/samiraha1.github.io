@@ -64,9 +64,8 @@ img{
     text-align: center;
 }
 
-@media (min-width: 900px){
+@media only screen and (min-width: 768px){
     body {
-        background: url(images/tree.jpg);
         background-size:cover;
         display:flex;
         
