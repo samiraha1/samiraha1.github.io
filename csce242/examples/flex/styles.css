@@ -1,13 +1,12 @@
 body{
     background:#2C4001;
     font-family:Arial, Helvetica, sans-serif;
+    border-color: #d5dfbf;
 }
 #content{
     width: 95%;
     margin: auto;
     background:#3E5902 ;
-    border:#d5dfbf;
-    border-radius: 5px;
 }
 #main-header{
     color:#d5dfbf;
@@ -33,6 +32,12 @@ body{
 }
 .five{
     flex:5;
+}
+.squirrel{
+    background:#2C4001;
+    padding: 5px;
+    border-radius:5px;
+    margin:5px;
 }
 /*main navigation*/
 #main-nav ul{
@@ -84,6 +89,7 @@ h1{
 body {
     background: url(images/tree.jpg);
     background-size:cover;
+    display:flex;
     
 
 }
