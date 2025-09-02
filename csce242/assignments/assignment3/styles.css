@@ -49,10 +49,9 @@ img{
     padding: 5px;
     margin: 0 10px;
 }
-#main-nav li:hover{
-    background: #EBA065;
-    color:#EB658B;
-}
+/* #main-nav li:hover{
+    background:#EB658B;
+} */
 #main-nav li:first-child{
     border-top:none;
 }
