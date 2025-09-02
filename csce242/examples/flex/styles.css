@@ -47,10 +47,12 @@ h2, p, h3{
 /*gallery*/
 #gallery{
     flex-wrap:wrap;
+    justify-content: space-between;
 }
 
 #gallery section{
-    width:25px;
+    width:25%;
+    text-align:center;
 }
 
 #gallery img{
