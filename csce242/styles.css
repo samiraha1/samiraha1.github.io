@@ -68,7 +68,7 @@ div {
 @media (min-width: 900px){
     .assignment {
         background-size:cover;
-        /* flex-direction: column; */
+        flex-direction: column;
         /* flex-wrap: wrap; */
         display: flex;
         
