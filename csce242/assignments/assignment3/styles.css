@@ -14,7 +14,7 @@ img{
     text-align: right;
     display: block;
 }
-.content{
+#content{
     width: 90%;
     margin:auto;
     background: #EBA065;
