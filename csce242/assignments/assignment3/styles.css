@@ -49,3 +49,13 @@ img{
     width:25%;
     text-align: center;
 }
+
+@media (min-width: 900px){
+    body {
+        background: url(images/tree.jpg);
+        background-size:cover;
+        display:flex;
+        
+    
+    }
+}
