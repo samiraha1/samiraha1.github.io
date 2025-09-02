@@ -4,6 +4,12 @@ body{
     border-color: #E9C4B7;
     border:5px;
 }
+h1{
+    text-align: center;
+}
+img{
+    max-width: 100%;
+}
 #content{
     width: 90%;
     margin:auto;
@@ -12,7 +18,7 @@ body{
     color:#E9C4B7
     
 }
-#main-nav li{
+#main-nav a{
     text-decoration: none;
     color:#EB7165;
     padding: 5px;
@@ -23,9 +29,7 @@ body{
 .columns{
     display: flex;
 }
-img{
-    max-width: 100%;
-}
+
 .one{
     flex:1;
 }
