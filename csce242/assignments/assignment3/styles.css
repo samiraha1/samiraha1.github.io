@@ -6,6 +6,7 @@ body{
 }
 h1{
     text-align: center;
+    padding-top: 5px;
 }
 img{
     max-width: 100%;
@@ -18,6 +19,7 @@ img{
     color:#E9C4B7
     
 }
+/*main*/
 #main-nav a{
     text-decoration: none;
     color:#EB7165;
