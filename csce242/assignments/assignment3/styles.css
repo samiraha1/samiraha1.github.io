@@ -20,6 +20,7 @@ img{
     color:#E9C4B7
     
 }
+
 /*main*/
 #main-nav a{
     text-decoration: none;
@@ -29,18 +30,20 @@ img{
 #main-content{
     padding: 5px;
 }
-.columns{
-    display: flex;
-}
 
+/*flex*/
 .one{
     flex:1;
 }
 .two{
     flex:2;
 }
+
+/*columns*/
 .columns{
     display:flex;
+    text-align: center;
+    padding: 5px;
 }
 .columns section{
     width:25%;
