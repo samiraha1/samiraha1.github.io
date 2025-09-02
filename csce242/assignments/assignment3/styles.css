@@ -50,7 +50,7 @@ img{
     margin: 0 10px;
 }
 #main-nav li:hover{
-    background: #EB8965 .5%;
+    background: #EB8965 .1%;
 }
 #main-nav li:first-child{
     border-top:none;
