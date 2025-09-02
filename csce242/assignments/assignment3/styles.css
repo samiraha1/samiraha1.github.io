@@ -49,6 +49,7 @@ img{
 }
 #main-content{
     padding: 5px;
+    flex: 1;
 }
 
 /*flex*/
