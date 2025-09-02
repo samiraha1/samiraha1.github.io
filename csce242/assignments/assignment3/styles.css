@@ -83,7 +83,7 @@ img{
 }
 
 @media (max-width: 768px){
-    .section {
+    .columns {
         flex: 1 1 100%;
         flex-direction: column;
         text-align: center;
