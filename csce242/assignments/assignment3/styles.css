@@ -50,7 +50,7 @@ img{
     display: flex;
     justify-content: space-between;
     margin: 0;
-    text-align: center;
+    align-items: center;
 }
 #main-content{
     padding: 5px;
