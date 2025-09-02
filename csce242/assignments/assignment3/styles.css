@@ -23,6 +23,9 @@ body{
 .columns{
     display: flex;
 }
+img{
+    max-width: 100%;
+}
 .one{
     flex:1;
 }
