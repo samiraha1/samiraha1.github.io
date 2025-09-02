@@ -21,8 +21,7 @@ img{
     border:#E9C4B7;
     color:#E9C4B7;
     align-items: center;
-    display: flex;
-    flex-wrap: wrap;
+    
     
 }
 /* section{
@@ -75,7 +74,7 @@ img{
     align-items: center;
     justify-content: space-between;
     margin:auto;
-    flex: 1;
+    flex-wrap: wrap;
 }
 .columns section{
     width:25%;
