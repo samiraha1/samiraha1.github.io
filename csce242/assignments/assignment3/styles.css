@@ -84,7 +84,7 @@ img{
 }
 .columns section{
     width:25%;
-    text-align: center;
+    align-items: center;
 }
 
 @media (max-width: 768px){
