@@ -5,8 +5,22 @@ body{
     border:5px;
 }
 #content{
-    width: 80%;
+    width: 90%;
     margin:auto;
     background: #EBA065;
     border:#E9C4B7;
+    color:#E9C4B7
+}
+.one{
+    flex:1;
+}
+.two{
+    flex:2;
+}
+.columns{
+    display:flex;
+}
+.columns section{
+    width:25%;
+    text-align: center;
 }
