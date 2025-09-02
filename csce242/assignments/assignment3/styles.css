@@ -12,6 +12,7 @@ h1{
 img{
     max-width: 100%;
     text-align: right;
+    display: block;
 }
 #content{
     width: 90%;
@@ -19,6 +20,7 @@ img{
     background: #EBA065;
     border:#E9C4B7;
     color:#E9C4B7;
+    align-items: center;
     
 }
 /* section{
