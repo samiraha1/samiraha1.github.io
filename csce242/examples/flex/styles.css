@@ -25,12 +25,13 @@ body{
 }
 #main-nav li {
     border-bottom: none;
+    display: flex;
+    text-align: center;
     
 }
 #main-nav li:first-child{
     border-top:none;
-    display: flex;
-    text-align: center;
+    
 }
 #main-nav a:hover{
     background:#3E5902;
