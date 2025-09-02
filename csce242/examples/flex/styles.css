@@ -75,7 +75,9 @@ body{
 h1{
     text-align: center;
 }
-
+img{
+    max-width:100%; /*important for images*/
+}
 .hide{
     display:none;/*no space in your markup, visibility hidden means it takes up space ts just white*/
 }
