@@ -14,13 +14,15 @@ img{
     text-align: right;
     display: block;
 }
-#content{
+.content{
     width: 90%;
     margin:auto;
     background: #EBA065;
     border:#E9C4B7;
     color:#E9C4B7;
     align-items: center;
+    flex: 1 1;
+    display: flex;
     
 }
 /* section{
