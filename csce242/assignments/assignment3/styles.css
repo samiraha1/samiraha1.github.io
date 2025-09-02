@@ -30,7 +30,7 @@ img{
     text-decoration: none;
     color:#EB7165;
     padding: 10px 5px;
-    /* text-align: center; */
+    text-align: center;
     display: block;
 }
 #main-nav a:hover{
