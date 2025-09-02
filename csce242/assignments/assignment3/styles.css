@@ -20,12 +20,12 @@ img{
     color:#E9C4B7;
     
 }
-section{
+/* section{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin:auto;
-}
+} */
 
 /*main*/
 #main-nav a{
@@ -61,9 +61,11 @@ section{
 
 /*columns*/
 .columns{
-    display:flex;
-    text-align: center;
     padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:auto;
 }
 .columns section{
     width:25%;
