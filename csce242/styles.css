@@ -65,11 +65,11 @@ div {
     text-align: center;
 }
 /* only */
-@media only screen and (min-width: 768px){
+@media (min-width: 900px){
     .assignment {
         background-size:cover;
-        flex-direction: column;
-        flex-wrap: wrap;
+        /* flex-direction: column; */
+        /* flex-wrap: wrap; */
         display: flex;
         
     
