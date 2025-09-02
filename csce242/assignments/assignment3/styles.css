@@ -75,17 +75,17 @@ img{
     justify-content: space-between;
     margin:auto;
     flex-wrap: wrap;
+    gap: 20px;
 }
 .columns section{
     width:25%;
     text-align: center;
 }
 
-@media only screen and (min-width: 768px){
-    body {
-        background-size:cover;
-        display:flex;
-        
-    
+@media (max-width: 768px){
+    .section {
+        flex: 1 1;
+        flex-direction: column;
+        text-align: center;
     }
 }
