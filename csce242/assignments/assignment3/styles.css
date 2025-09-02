@@ -75,7 +75,8 @@ img{
     justify-content: space-between;
     margin:auto;
     flex-wrap: wrap;
-    gap: 20px;
+    padding: 20px;
+    border: 1px #E9C4B7;
 }
 .columns section{
     width:25%;
