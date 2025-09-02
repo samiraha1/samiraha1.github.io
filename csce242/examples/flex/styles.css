@@ -39,6 +39,11 @@ body{
     border-radius:5px;
     margin:5px;
 }
+/*
+one option
+ .squirrel .columns div{
+    width:30px;
+} */
 /*main navigation*/
 #main-nav ul{
     padding-left:0;
