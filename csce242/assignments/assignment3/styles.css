@@ -48,7 +48,7 @@ img{
 #main-nav ul{
     padding:0px;
     display: flex;
-    flex:1;
+    justify-content: space-between;
     margin: 0;
     text-align: center;
 }
