@@ -26,6 +26,12 @@ img{
     text-decoration: none;
     color:#EB7165;
     padding: 5px;
+    text-align: center;
+    display: block;
+}
+#main-nav a:hover{
+    background: #EBA065;
+    color:#EB658B;
 }
 #main-content{
     padding: 5px;
