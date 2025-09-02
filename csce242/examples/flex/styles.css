@@ -17,16 +17,34 @@ body{
 .columns {
     display:flex;
 }
+.one{
+    flex:1;
+}
+.two{
+    flex:2;
+}
+.three{
+    flex:3;
 
+
+}
+.four{
+    flex:4
+}
+.five{
+    flex:5;
+}
 /*main navigation*/
 #main-nav ul{
-    list-style-type:none;
     padding-left:0;
 }
 #main-nav li {
     border-bottom: none;
-    display: flex;
-    text-align: center;
+    list-style-type:none;
+    flex:1;
+    padding: 5px;
+    background-color: #3E5902;
+    border-bottom: #d5dfbf;
     
 }
 #main-nav li:first-child{
@@ -52,12 +70,22 @@ body{
 h1{
     text-align: center;
 }
-@media only screen and (min-width: 768px){
+
+.hide{
+    display:none;/*no space in your markup, visibility hidden means it takes up space ts just white*/
+}
+.hide-small{
+    display:block;
+}
+#main-content section, #main-content aside{
+    padding:5px;
+}
+@media (min-width: 900px){
 body {
     background: url(images/tree.jpg);
     background-size:cover;
     
 
 }
-
+/* only screen and */
 }
