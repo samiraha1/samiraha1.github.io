@@ -51,7 +51,7 @@ img{
     justify-content: space-evenly;
     margin: 0;
     align-items: center;
-    width: 100px;
+    width: auto;
 }
 #main-content{
     padding: 5px;
