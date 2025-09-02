@@ -12,11 +12,16 @@ body{
     color:#E9C4B7
     
 }
-#main-nav header{
+#main-nav li{
+    text-decoration: none;
+    color:#EB7165;
     padding: 5px;
 }
 #main-content{
     padding: 5px;
+}
+.columns{
+    display: flex;
 }
 .one{
     flex:1;
