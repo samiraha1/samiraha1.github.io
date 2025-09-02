@@ -33,6 +33,13 @@ img{
     background: #EBA065;
     color:#EB658B;
 }
+#main-nav li{
+    list-style-type: none;
+    flex:1;
+}
+#main-nav ul{
+    padding:0px;
+}
 #main-content{
     padding: 5px;
 }
