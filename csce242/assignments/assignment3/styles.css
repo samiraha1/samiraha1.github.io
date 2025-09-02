@@ -1,0 +1,12 @@
+body{
+    background: #EB7165;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-color: #E9C4B7;
+    border:5px;
+}
+#content{
+    width: 80%;
+    margin:auto;
+    background: #EBA065;
+    border:#E9C4B7;
+}
