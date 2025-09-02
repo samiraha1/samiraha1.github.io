@@ -43,6 +43,24 @@ h2, p{
     border-radius:5px;
     margin:5px;
 }
+
+/*gallery*/
+#gallery{
+    flex-wrap:wrap;
+}
+
+#gallery section{
+    width:25px;
+}
+
+#gallery img{
+    padding:5px;
+}
+
+/*images*/
+img{
+    max-width:100%; /*important for images*/
+}
 /*
 one option
  .squirrel .columns div{
@@ -84,9 +102,7 @@ one option
 h1{
     text-align: center;
 }
-img{
-    max-width:100%; /*important for images*/
-}
+
 .hide{
     display:none;/*no space in your markup, visibility hidden means it takes up space ts just white*/
 }
