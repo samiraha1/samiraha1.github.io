@@ -38,7 +38,7 @@ img{
     flex:1;
 }
 #main-nav ul{
-    padding:0px;
+    padding-left:0px;
 }
 #main-content{
     padding: 5px;
