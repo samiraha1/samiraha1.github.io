@@ -10,6 +10,13 @@ body{
     background: #EBA065;
     border:#E9C4B7;
     color:#E9C4B7
+    
+}
+#main-nav header{
+    padding: 5px;
+}
+#main-content{
+    padding: 5px;
 }
 .one{
     flex:1;
