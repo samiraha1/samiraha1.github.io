@@ -9,7 +9,7 @@ body{
     background:#3E5902 ;
     border:#d5dfbf;
 }
-h2, p{
+h2, p, h3{
     color: #d5dfbf;
 }
 #main-header{
