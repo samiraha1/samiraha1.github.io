@@ -75,6 +75,7 @@ img{
     align-items: center;
     justify-content: space-between;
     margin:auto;
+    flex: 1;
 }
 .columns section{
     width:25%;
