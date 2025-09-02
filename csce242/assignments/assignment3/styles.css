@@ -20,6 +20,12 @@ img{
     color:#E9C4B7;
     
 }
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:auto;
+}
 
 /*main*/
 #main-nav a{
