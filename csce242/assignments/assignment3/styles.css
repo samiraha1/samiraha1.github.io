@@ -45,9 +45,9 @@ img{
 #main-nav li{
     list-style-type: none;
     flex:1;
-    display: grid;
+    /* display: grid;
     grid-auto-flow: column;
-    justify-content: center;
+    justify-content: center; */
     text-align: center;
     background-color:#E9C4B7 ;
     padding: 10px 20px;
