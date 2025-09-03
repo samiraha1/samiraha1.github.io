@@ -90,11 +90,11 @@ img{
 
 /*columns*/
 .columns{
-    /* padding: 1px; */
-    /* display: flex;
+    padding: 1px; 
+    /* display: flex; */
     align-items: center;
     justify-content: space-between;
-    margin:auto; */
+    margin:auto;
     /* flex-wrap: wrap; */
     flex: 1 1 50%;
     padding: 20px;
