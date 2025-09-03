@@ -35,10 +35,10 @@ img{
     /* text-align: center; */
     display: block;
 }
-/* #main-nav a:hover{
+#main-nav a:hover{
     background: #EB8965;
     color:#e6547d;
-} */
+}
 
 #main-nav li{
     flex:1;
@@ -50,9 +50,9 @@ img{
     justify-content: center; */
     /* margin: 0 10px; */
 }
-#main-nav li:hover{
+/* #main-nav li:hover{
     background: #EB8965;
-}
+} */
 /* #main-nav li:first-child{
     border-top:none;
 } */
