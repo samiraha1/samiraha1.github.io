@@ -71,12 +71,12 @@ img{
 
 /*content*/
 .content{
-    /* width: 90%; */
+    width: 90%;
     margin:0;
     background: #EBA065;
     border:#E9C4B7;
     color:#E9C4B7;
-    /* align-items: center;   */
+    align-items: center;  
 }
 
 /*flex*/
