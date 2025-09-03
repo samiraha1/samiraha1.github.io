@@ -40,7 +40,7 @@ header{
 
 #main-nav li{
     /* list-style-type: none; */
-    text-align: center;
+    text-align: stretch;
     /* padding: 15px 0px; */
     flex:1;
     /* display: grid;
