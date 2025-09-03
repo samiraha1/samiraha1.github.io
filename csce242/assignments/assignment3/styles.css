@@ -31,9 +31,9 @@ img{
 #main-nav a{
     text-decoration: none;
     color:#EB7165;
-    /* padding: 15px 0px; */
+    padding: 15px 5px;
     /* text-align: center; */
-    /* display: block; */
+    display: block;
 }
 /* #main-nav a:hover{
     background: #EB8965;
