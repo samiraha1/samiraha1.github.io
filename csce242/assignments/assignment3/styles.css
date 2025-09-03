@@ -35,10 +35,10 @@ img{
     /* text-align: center; */
     display: block;
 }
-/* #main-nav a:hover{
+#main-nav a:hover{
     background: #EB8965;
     color:#e6547d;
-} */
+}
 
 #main-nav li{
     flex:1;
