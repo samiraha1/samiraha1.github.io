@@ -96,7 +96,7 @@ img{
     justify-content: space-between;
     margin:auto;
     /* flex-wrap: wrap; */
-    flex: 1 1;
+    flex: 1 2;
     padding: 20px;
     border: 1px #E9C4B7;
 }
