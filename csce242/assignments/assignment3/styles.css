@@ -28,13 +28,13 @@ img{
     margin:0%;
     width:100%;
 }
-#main-nav a{
+/* #main-nav a{
     text-decoration: none;
     color:#EB7165;
     padding: 15px 0px;
     /* text-align: center; */
     display: block;
-}
+} */
 #main-nav a:hover{
     background: #EB8965;
     color:#e6547d;
