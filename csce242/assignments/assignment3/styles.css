@@ -29,7 +29,7 @@ header{
 #main-nav a{
     text-decoration: none;
     color:#EB7165;
-    /* padding: 10px 5px; */
+    padding: 10px 5px;
     text-align: center;
     /* display: block; */
 }
@@ -42,7 +42,7 @@ header{
     /* list-style-type: none; */
     text-align: center;
     /* padding: 15px 0px; */
-    flex:1;
+    /* flex:1; */
     /* display: grid;
     grid-auto-flow: column;
     justify-content: center; */
@@ -51,9 +51,9 @@ header{
 #main-nav li:hover{
     background: #EB8965;
 }
-#main-nav li:first-child{
+/* #main-nav li:first-child{
     border-top:none;
-}
+} */
 #main-nav ul{
     list-style: none;
     display: flex;
