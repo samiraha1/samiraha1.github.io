@@ -119,4 +119,7 @@ img{
         flex-direction: column;
         text-align: center;
     }
+    .stuff{
+        flex: 1 1;
+    }
 }
