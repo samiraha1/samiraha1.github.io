@@ -27,7 +27,7 @@ header{
     align-items: stretch;
     padding: 0;
     margin:0%;
-    width: 100px;
+    width:100%;
 }
 #main-nav a{
     text-decoration: none;
