@@ -72,7 +72,7 @@ img{
 /*content*/
 .content{
     width: 90%;
-    margin:auto;
+    margin:0;
     background: #EBA065;
     border:#E9C4B7;
     color:#E9C4B7;
