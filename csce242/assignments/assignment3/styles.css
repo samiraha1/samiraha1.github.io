@@ -1,16 +1,17 @@
-body{
+body {
     background: #EB7165;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     /* border-color: #E9C4B7; */
     border-style: solid;
     border: 5px #E9C4B7;
 }
+
 /* div{
     border: 5px #E9C4B7;
     border-style: solid;
 
 } */
-h1{
+h1 {
     text-align: center;
     padding-top: 5px;
     color: #E9C4B7;
@@ -18,173 +19,193 @@ h1{
 }
 
 /*main*/
-#main-nav{
+#main-nav {
     background-color: #E9C4B7;
     padding: 0;
-    margin:0%;
-    width:100%;
+    margin: 0%;
+    width: 100%;
 }
-#main-nav a{
+
+#main-nav a {
     text-decoration: none;
-    color:#EB7165;
+    color: #EB7165;
     padding: 15px 100px;
     display: block;
 }
 
-#main-nav li{
-    flex:1;
+#main-nav li {
+    flex: 1;
     text-align: center;
 }
-#main-nav li:hover{
+
+#main-nav li:hover {
     background: #f6ad92;
 }
+
 /* #main-nav li:first-child{
     border-top:none;
 } */
-#main-nav ul{
+#main-nav ul {
     list-style: none;
     display: flex;
     /* justify-content: center; */
     /* align-items: center; */
-    padding:0;
+    padding: 0;
     margin: 0;
-    width:100%;
+    width: 100%;
     border-style: solid;
-    border:#E9C4B7;
+    border: #E9C4B7;
 }
-#main-content{
+
+#main-content {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    color: #E9C4B7; 
+    color: #E9C4B7;
     padding: 20px;
 }
+
 /*columns*/
 
-.columns{
+.columns {
     /* text-align: center; */
-    display:flex;
+    display: flex;
     align-items: flex-start;
-    flex-direction:row;
+    flex-direction: row;
     flex: 1 1 45%;
     padding: 20px;
-    gap:20px;
+    gap: 20px;
     border-style: solid;
     border: 5px #E9C4B7;
 }
-.columns img{
+
+.columns img {
     max-width: 200px;
-    height:auto;
+    height: auto;
     flex-shrink: 0;
 }
-.columns .text{
-    flex:1;
+
+.columns .text {
+    flex: 1;
 }
 
 /*second */
-#link{
-    flex:1;
+#link {
+    flex: 1;
     height: auto;
-    background:#E9C4B7;
+    background: #E9C4B7;
 }
-#title{
-    flex:2;
+
+#title {
+    flex: 2;
     /* display: flex;
     flex: 1 1 30%;
     flex-direction:column; */
-    background:#e8a46f;
+    background: #e8a46f;
 }
-#gallery{
-    flex:3;
-    background:#e8a46f;
-    border: 5px solid #E9C4B7; 
-    display:flex;
+
+#gallery {
+    flex: 3;
+    background: #e8a46f;
+    border: 5px solid #E9C4B7;
+    display: flex;
     width: auto;
     flex-wrap: wrap;
 }
-.column{
+
+.column {
     text-align: center;
     border: 5px solid #E9C4B7;
-   
-    padding:5px;
+
+    padding: 5px;
 }
-#second-content{
-    display:flex;
+
+#second-content {
+    display: flex;
     width: auto;
     flex-wrap: wrap;
-    background:#EB7165;
+    background: #EB7165;
     color: #EB7165;
     padding: 10px;
     flex: 1 1 50%;
 }
-.section1{
-    flex:2;
-    padding:10px;
-    border:5px solid #E9C4B7;
+
+.section1 {
+    flex: 2;
+    padding: 10px;
+    border: 5px solid #E9C4B7;
 }
-nav{
-    background:#E9C4B7;
+
+nav {
+    background: #E9C4B7;
     padding: 10px;
     list-style: none;
 }
 
 /*Gallery*/
 
-#gallery div{
+#gallery div {
     flex: 1 3 30%;
     /* width: 25%; */
     text-align: center;
     padding: 10%;
 }
-#gallery img{
+
+#gallery img {
     padding: 5px;
     width: 100%;
 }
 
 
 /*footer*/
-#main-footer{
-    background:#e8a46f;
+#main-footer {
+    background: #e8a46f;
     text-align: center;
-    width:100%;
-    height:auto;
+    width: 100%;
+    height: auto;
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
     .columns {
         flex: 1 1 100%;
         flex-direction: column;
         text-align: left;
         align-items: center;
     }
-    #main-nav ul{
+
+    #main-nav ul {
         flex-direction: column;
         align-items: center;
         text-align: center;
-        width:auto;
+        width: auto;
     }
-    .columns img{
+
+    .columns img {
         margin-bottom: 15px;
     }
+
     #gallery {
         flex: 1 1 100%;
         flex-direction: column;
         text-align: center;
         /* align-items: center; */
-        
+
     }
+
     #second-content {
         flex: 1 1 100%;
         flex-direction: column;
-        width:100%;
+        width: 100%;
         text-align: center;
         align-items: center;
-        
+
     }
-    #link{
+
+    #link {
         width: auto;
     }
-    nav{
+
+    nav {
         text-align: left;
     }
 }
