@@ -11,14 +11,25 @@ body{
     width: 95%;
     margin: auto;
     background:#3E5902 ;
-    border:#d5dfbf;
+    border:1px solid #d5dfbf;
 }
 h2, p, h3{
     color: #d5dfbf;
 }
 #main-header{
+    background:var(--primary-color);
     color:#d5dfbf;
     padding:5px;
+    position: relative;
+    
+}
+#main-header img{
+    display:block;
+    top:0;
+    position:absolute;
+    left:0;
+    width:75px;
+    border-radius:50px;
 }
 /*columns*/
 .columns {
@@ -47,7 +58,16 @@ h2, p, h3{
     border-radius:5px;
     margin:5px;
 }
+#showcase p{
+    background:black;
+    color:white;
+    padding:10px;
+    width: fit-content;
 
+    position:absolute;
+    top:-50px;
+    left:200px;
+}
 /*gallery*/
 #gallery{
     flex-wrap:wrap;
@@ -73,16 +93,21 @@ one option
     width:30px;
 } */
 /*main navigation*/
-#main-nav ul{
+nav ul{
+    list-style-type: none;
     padding-left:0;
 }
+
+nav a{
+    text-decoration: none;
+}
 #main-nav li {
-    border-bottom: none;
+    /* border-bottom: none; */
     list-style-type:none;
     flex:1;
     padding: 5px;
     background-color: #3E5902;
-    border-bottom: #d5dfbf;
+    /* border-bottom: 1px solid #d5dfbf; */
     
 }
 #main-nav li:first-child{
@@ -92,8 +117,27 @@ one option
 #main-nav a:hover{
     background:#3E5902;
     color:#d5dfbf;
-    border-bottom:1px #d5dfbf;
+    border-bottom:1px solid #d5dfbf;
 }
+
+#login-nav {
+    position:absolute;
+    top:2.5%;
+    right:2.5%;
+}
+
+#login-nav a{
+    color:white;
+    padding:5px;
+    display:block;
+}
+
+#login-nav a:hover{
+    border-bottom: 1px solid white;
+}
+
+
+
 #main-nav a {
     color:#d5dfbf;
     padding: 10px 5px;
@@ -124,7 +168,9 @@ body {
     background: url(images/tree.jpg);
     background-size:cover;
     display:flex;
-    
+    #login-nav li:not(:last-child)::after{
+        content:"|"
+    }
 
 }
 /* only screen and */

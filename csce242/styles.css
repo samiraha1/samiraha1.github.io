@@ -33,6 +33,9 @@ div {
     margin: auto;
     padding: 10px
 }
+#projects h2{
+    text-align: center;
+}
 .columns {
     
     display:flex;
