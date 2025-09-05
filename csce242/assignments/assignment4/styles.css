@@ -1,6 +1,6 @@
 /*header*/
 body{
-    background-color: black;
+    background-color: white;
     height: max-content;
 }
 a{
@@ -51,16 +51,24 @@ h3, h1{
     border-style: solid;
     border: 5px white;
 }
+#nav a:hover{
+    background-color:#75000A;
+}
 #title{
     /* background-color: black; */
     color:white;
     display:flex;
     flex: 1;
-    padding:10px;
-    margin-top: 30px;
+    background-color: black;
+    /* margin:0px;
+    margin-top: 0px; */
     justify-content: space-between;
     align-items: flex-end;
     padding: 10px 20px;
+    width: 98.75%;
+    margin-left: -1%;
+    margin-right: -3%;
+    text-items: center;
 }
 .two{
     /* flex:2; */
@@ -74,19 +82,40 @@ h3, h1{
     display:flex;
     justify-content: flex-end;
     margin: 20px;
-    background: ;
+    background: #75000A;
+    width: 103.56%;
+    margin-left: -3%;
+    margin-right: -3%;
+    display:block;
 }
 #navs{
     flex-direction: row;
+    width:100%;
     
+}
+#navs a:hover{
+    background-color: #570009;
+}
+#navs a{
+
 }
 #navs ul{
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
     list-style: none;
+    margin-right: 10px;
     
 }
 #navs li{
-    margin:10px
+    margin:10px;
+    display:block;
+}
+@media (max-width: 768px)
+{
+    #title{
+        flex: 1 1 50%;
+        margin:10px;
+        text-align: left;
+    }
 }
