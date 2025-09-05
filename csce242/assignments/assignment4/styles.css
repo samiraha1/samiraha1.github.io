@@ -14,9 +14,11 @@ h3, h1{
 }
 h3{
     font-size: 100%;
+    margin: 0 0 -12px 0%;
 }
 h1{
     font-size: 180%;
+    margin: 0%;
 }
 img{
     width:4%;
@@ -35,7 +37,7 @@ img{
     margin-left: -1%;
     margin-right: 7%;
     padding: -5px 0px;
-    font-size:100%;
+    
     
 
     
@@ -65,16 +67,19 @@ img{
     justify-content: flex-start;
     flex-wrap: wrap;
     list-style: none;
-    padding: 20px;
+    padding: 15px;
     justify-content: flex-start;
     border-style: solid;
     border: 5px white;
-    /* width:50%;
-    height:50%; */
+    font-size:70%;
    
 }
 #nav a:hover{
     background-color:#75000A;
+}
+#nav a{
+    font-size: 90%;
+    font-family: helvetica;
 }
 #title{
     /* background-color: black; */
@@ -114,9 +119,12 @@ img{
 }
 #navs a:hover{
     background-color: #570009;
+    height:100%;
+
 }
 #navs a{
-
+    font-family: helvetica;
+    font-size: 100%;
 }
 #navs ul{
     display: flex;
