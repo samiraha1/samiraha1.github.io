@@ -415,7 +415,7 @@ img {
 #text4 img {
     position: relative;
     left: 10%;
-    bottom: 300px;
+    bottom: 315px;
     display: block;
     border-radius: 50%;
     width: 20%;
@@ -558,13 +558,20 @@ img {
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
-    width: 100vw;
+    width:100vw;
     margin:0;
+    justify-content: space-between;
+    /* gap: 20px; */
+    padding: 40px 20px;
+    background-color: black;
 }
 
 #text7 .text {
     flex: 1;
     background-color: black;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
     color: white;
     padding: 40px;
     display: flex;
@@ -581,6 +588,12 @@ img {
     height: 100%;
     padding:30px;
     background-color: black;
+}
+#text7 .image img{
+    width: 100%;
+   height:auto;
+   display:block;
+   object-fit: cover;
 }
 
 #text7 .text a {
@@ -614,6 +627,14 @@ img {
     font-weight: bold;
 }
 
+/*section 8*/
+#text8{
+    
+}
+#text8 .text{
+    color:#570009;
+    font-size:30%;
+}
 @media (max-width: 768px) {
     #title {
         flex: 1 1 50%;
