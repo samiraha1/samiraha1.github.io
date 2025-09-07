@@ -33,18 +33,12 @@ img {
     height: 4%;
 }
 
-/* nav{
-    position: absolute;
-    top: 0px;
-    left: 0px;
-} */
+
 /*main*/
 #main-nav {
     background-color: black;
     width: 100%;
     margin-top: -1.5%;
-    /* margin-left: -1%;
-    margin-right: 5%; */
     padding: -5px 0px;
 
 
@@ -109,7 +103,6 @@ img {
 }
 
 .two {
-    /* flex:2; */
     display: flex;
     flex-direction: column;
     margin-right: auto;
@@ -126,7 +119,6 @@ img {
     display: block;
     margin-top: -1.2%;
     margin-bottom: -1.3%;
-    /* padding: 5px; */
 }
 
 #navs {
@@ -329,11 +321,8 @@ img {
 }
 
 #image2 h1 {
-    /* position:absolute; */
-    /* top:79%;
-    left:0%; */
+    
     color: white;
-    /* background-color:rgba(255, 255, 255, 0.3); */
     padding-bottom: 23px;
     padding-top: 23px;
     padding-left: 22px;
@@ -351,7 +340,6 @@ img {
     margin-left: 40%;
     margin-top: 10%;
     padding-bottom: 3%;
-    /* padding:0px; */
     background: black;
     color: white;
     text-align: left;
@@ -381,7 +369,6 @@ img {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-    /* margin-right: 10px; */
 
 }
 
@@ -429,7 +416,6 @@ img {
     align-items: stretch;
     width: 100%;
     height: 400px;
-    /* flex: 1 1 50%; */
 }
 
 #text5 .text {
@@ -524,16 +510,13 @@ img {
     margin-top: 4%;
 }
 #text6 .two h2 {
-    /* margin-top: 8%; */
     margin-bottom: -1%;
 }
 
 #text6 .two p {
-    /* margin-bottom: -8%; */
     padding-bottom: -3%;
 }
 #text6 p {
-    /* margin-bottom: -8%; */
     padding-bottom: 6%;
 }
 #text6 img {
@@ -559,38 +542,35 @@ img {
     flex-wrap: wrap;
     align-items: stretch;
     width:100vw;
-    margin:0;
+    margin-right:-6.36%;
     justify-content: space-between;
-    /* gap: 20px; */
-    padding: 40px 20px;
+    padding: 30px 20px;
     background-color: black;
+    margin-left:-9.5%;
+    height:60%;
 }
 
-#text7 .text {
+#text7 .text{
     flex: 1;
     background-color: black;
     display:flex;
     flex-direction: column;
     justify-content: center;
     color: white;
-    padding: 40px;
+    padding-left: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* width:200%; */
-
-    /* height: auto; */
-
 }
 
 #text7 .image {
     flex: 1;
-    height: 100%;
-    padding:30px;
+    height: 80%;
     background-color: black;
 }
 #text7 .image img{
-    width: 100%;
+    margin-left:20%;
+    width: 70%;
    height:auto;
    display:block;
    object-fit: cover;
@@ -629,9 +609,9 @@ img {
 
 /*section 8*/
 #text8{
-    
+    color:black;
 }
-#text8 .text{
+#text8 #titles{
     color:#570009;
     font-size:30%;
 }
