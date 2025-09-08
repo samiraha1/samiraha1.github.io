@@ -745,6 +745,7 @@ img {
 }
 #text9 img{
     width:5%;
+    filter:grayscale(100%);
 }
 #text10{
     display:flex;
