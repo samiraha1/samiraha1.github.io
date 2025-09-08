@@ -959,6 +959,12 @@ img {
         flex: 1 1 50%;
         margin: 10px;
         text-align: left;
+
+    }
+    #html{
+        margin:0%;
+        padding:0%;
+        overflow: hidden;
     }
     #body {
         display: flex;
@@ -967,6 +973,7 @@ img {
         width:100%;
         margin:0%;
         padding:0%;
+        overflow: hidden;
     }
     #main-nav {
         display: flex;
@@ -977,7 +984,7 @@ img {
         flex-direction: row;
     }
     #main-nav #nav ul{
-        width:100%;
+        max-width:100%;
         /* text-align: center; */
         display: flex;
         flex-wrap: wrap;
@@ -1040,7 +1047,45 @@ img {
     top:0px;
     left:20px;
    }
+   #text4{
+    height:100%
+   }
+   #text4 .usc{
+    position:relative;
+    top:160px;
+    left:40px;
+    width:90%;
+    height:100%;
+   }
+   #text4 img{
+    position:relative;
+    top:50%;
+    left:25%;
+    width:50%;
+   }
+   #text5 a{
+    padding-right:70px;
+   }
+   #text6{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width:100%;
+    margin:-32px;
+   }
+   #text6 .one a{
+    padding-left:35%;
+    padding-right:33%;
+   }
+   #text8{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    align-items: center;
+    border:none;
+   }
     #title img{
         width:15%;
+        
     }
 }
