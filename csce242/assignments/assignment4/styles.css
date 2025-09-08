@@ -1,4 +1,9 @@
 /*header*/
+html{
+    margin:0%;
+    height:100%;
+    padding:0%
+}
 body {
     background-color: white;
     height: max-content;
@@ -735,18 +740,27 @@ img {
     background-color: #75000A;
     justify-content: space-between;
     align-items: flex-end;
-    padding: 10px 20px;
+    padding: 30px 70px;
+    padding-bottom:0px;
+}
+#text9 img{
+    width:5%;
 }
 #text10{
     display:flex;
+    padding:20px;
+    background-color: #75000A;
 }
 #text10 h3{
     color: white;
     font-size: 15px;
 }
+
+
 #colleges{
     padding-bottom:50px;
     padding-top:20px;
+    flex:3;
 }
 #text10 #colleges li{
     list-style: none;
@@ -802,6 +816,7 @@ img {
 #offices{
     padding-bottom:50px;
     padding-top:20px;
+    flex:2;
 }
 #text10 #offices li{
     list-style: none;
@@ -850,6 +865,7 @@ img {
 #tools{
     padding-bottom:50px;
     padding-top:20px;
+    flex:1;
 }
 #text10 #tools li{
     list-style: none;
@@ -858,6 +874,7 @@ img {
     margin-left:47px;
     padding-bottom:5px;
     border-bottom: 1px solid white ;
+    margin-right:15px;
 }
 #text10 #tools {
     display: flex;
@@ -871,12 +888,6 @@ img {
     background:#75000A
     
 }
-#text10 .again{
-    padding:20px;
-    display:flex;
-    flex-direction: row;
-    margin-left: 30px;
-}
 
 #text10 #tools .part1 {
     display:flex;
@@ -884,7 +895,61 @@ img {
     flex: 1;
     gap:15px;
     padding-top:5px;
+    padding:20px;
+    margin-left: 30px;
   
+}
+
+
+/*final*/
+#final {
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: -10px;
+    left: 0px;
+    width: 100%;
+    overflow: hidden;
+    border-top: 2px solid white;
+    margin:0%;
+    /* position: fixed; */
+    
+}
+#yay{
+    background-color: black;
+}
+#final li {
+    margin: 10px;
+    padding-right: 20px;
+    border-right: 2px solid white;
+}
+
+#final li:last-child {
+    border-right: none;
+}
+
+#final ul {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: flex-start;
+    border-style: solid;
+    border: 5px white;
+    font-size: 70%;
+
+}
+
+#final a:hover {
+    background-color: #75000A;
+}
+
+#final a {
+    font-size: 90%;
+    font-family: helvetica;
+    font-weight: bold;
 }
 
 @media (max-width: 768px) {
