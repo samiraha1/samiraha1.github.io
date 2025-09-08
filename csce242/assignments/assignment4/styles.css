@@ -271,18 +271,19 @@ img {
 }
 
 #nav {
-    display: flex;
-    flex-direction: row;
     text-decoration: none;
     list-style: none;
+    align-items: center;
 
 
 }
 
 #text3 ul {
+    display: flex;
+    flex-direction: row;
     text-decoration: none;
     list-style: none;
-    padding-left: -1%;
+    padding-left: 10%;
     margin: 30px;
     padding-top: 20px;
 }
@@ -962,26 +963,84 @@ img {
     #body {
         display: flex;
         flex-wrap: wrap;
-        flex-direction: column;
-        overflow: hidden;
+        flex-direction: row;
         width:100%;
+        margin:0%;
+        padding:0%;
     }
     #main-nav {
         display: flex;
         flex-wrap: wrap;
-        flex-direction: column;
         align-items: center;
+    }
+    #main-nav #nav{
+        flex-direction: row;
     }
     #main-nav #nav ul{
         width:100%;
-        text-align: center;
+        /* text-align: center; */
         display: flex;
         flex-wrap: wrap;
-        flex-direction: column;
-        padding-left:80px;
+        flex-direction: row;
         font-size:15px;
     }
     #main-nav #nav li{
-        border:none;
+        /* border:none; */
+    }
+    #sec-nav{
+        position: relative;
+        top:-8px;
+    }
+    /* #image1{
+        position:relative;
+        top:-25%;
+    } */
+    #image1 img{
+        position: relative;
+        top:-2%;
+    }
+    #image1 h1{
+        font-size:25px;
+        position: relative;
+        top:-2%;
+    }
+    #text1 p{
+        width:150%;
+        margin-left:-40%;
+        margin-top:-40%;
+    }
+   #text2 a{
+    padding-right:90px;
+   }
+   #text3 .nav{
+    display:flex;
+    justify-content: center;
+    width:100%;
+    flex-wrap:nowrap;
+    gap:10px;
+    margin: 10px auto;
+    margin-left:-15px;
+   }
+   #text3 .nav a{
+    flex:1;
+    padding: 10px 20px;
+    text-align:center;
+    /* gap:10px; */
+   }
+   #image2 .discovery{
+    position:absolute;
+    top:400px;
+    left:-270px;
+    width:97%;
+    padding-bottom:60%;
+    margin-top:70px;
+   }
+   #image2 .discovery a{
+    position:relative;
+    top:0px;
+    left:20px;
+   }
+    #title img{
+        width:15%;
     }
 }
