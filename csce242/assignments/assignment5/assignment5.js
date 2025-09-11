@@ -10,3 +10,6 @@ document.getElementById("btn3").onclick = () => {
         console.log("switched back")
     }
 }
+document.getElementById("btn1").onclick = () => {
+    const image = document.getElementById("img");
+    console.log(image.src);
