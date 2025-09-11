@@ -26,3 +26,13 @@ document.getElementById("btn-happy").onclick = () => {
     pFeeling.classList.remove("sad") ;
     pFeeling.classList.remove("Happy") ;
 }
+
+document.getElementById("txt-emotion").onkeyup = (event) => {
+    const userInput = event.currentTarget.value;
+    document.getElementById("p-emotion").innerHTML = `You are feeling ${userInput}.`;
+    /*back ticks needed to evaluate dollar sign*/
+    document.getElementById("p-emotion").innerHTML = `You are feeling ${userInput}.`;
+    
+
+
+};
