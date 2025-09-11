@@ -10,5 +10,18 @@ document.getElementById("btn-click-me").onclick = sayHello;
 */
 
 document.getElementById("btn-click-me").onClick = () => {
-    console.log("Hello World!")
+    document.getElementById("p-welcome").innerHTML = "Hello World";
+    document.getElementById("btn-click-me").classList.add("clicked");
+    console.log(event.currentTarget).classList.add("Clicked");
 };
+
+document.getElementById("btn-happy").onclick = () => {
+    pFeeling.innerHTML = "YAY";
+    pFeeling.classList.add("Happy") ;
+}
+
+document.getElementById("btn-happy").onclick = () => {
+    const pFeeling = document.getElementById("p-feeling");
+    pFeeling.innerHTML = "YAY";
+    pFeeling.classList.add("Happy") ;
+}

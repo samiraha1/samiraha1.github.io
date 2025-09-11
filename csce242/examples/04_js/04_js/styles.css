@@ -232,6 +232,21 @@ header h1 {
 footer p {
     text-align:center;
 }
+.clicked {
+    background:magenta;
+    color:white;
+}
+
+.happy{
+    background-color: yellow;
+    color:black;
+    border:2px solid orange;
+}
+.sad{
+    background-color:blue;
+    color:white;
+    border:2px solid skyblue;
+}
 
 #map {
     width:100%;
