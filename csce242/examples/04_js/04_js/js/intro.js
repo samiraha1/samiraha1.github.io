@@ -22,6 +22,7 @@ document.getElementById("btn-happy").onclick = () => {
 
 document.getElementById("btn-happy").onclick = () => {
     const pFeeling = document.getElementById("p-feeling");
-    pFeeling.innerHTML = "YAY";
-    pFeeling.classList.add("Happy") ;
+    pFeeling.innerHTML = "";
+    pFeeling.classList.remove("sad") ;
+    pFeeling.classList.remove("Happy") ;
 }
