@@ -52,6 +52,10 @@ div {
 div:first-child{
     border-bottom:none;
 }
+#header {
+    text-align: center;
+    align-items: center;
+}
 #header{
     /* border-bottom: 5px solid #ca6382;  */
     border-top: 5px solid #ca6382;
