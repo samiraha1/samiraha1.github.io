@@ -14,10 +14,9 @@
         <h2>Introduction to JavaScript</h2>
     </header>
     <main id="main">
-        <div id="first1">
+        <div id="first1" class="style">
             <h3>Sunny Times</h3>
-            <button id="btn">click</button>
-            <div id="sun">
+            <div id="sun" class="hidden">
                 <p>Here comes the sun</p>
                 <p class="indent">sun</p>
                 <p class="indent2">sun</p>
@@ -25,11 +24,13 @@
                 <p>Here it comes</p>
             </div>
         </div>
-        <div id="first2">
+        <div id="first2" class="style">
             <h3>Select a Color:</h3>
-            <button id="btn2">color</button>
+            <button id="btn2">press me to choose a color</button>
+            <input type="color" id="color-picker" class="hidden">
+            <p id="color-text">Hello World!</p>
         </div>
-        <div id="first3">
+        <div id="first3" class="style">
             <h3>Image Change</h3>
             <button id="btn3">Become Sunny</button>
             <img id="img" src="images/cloud1.png" style="width:50%">
