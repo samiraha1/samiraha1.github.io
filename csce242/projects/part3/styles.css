@@ -6,8 +6,11 @@ ul{
     color: white;
     margin:10px;
 }
-li{
-   
+h2{
+    font-size:30px
+}
+h1{
+    font-size:50px
 }
 a{
     color: white;
@@ -26,6 +29,66 @@ html,body{
     box-shadow: 2px 2px;
     margin:20px;
     padding:10px;
+}
+/*PLAYLISTS*/
+#playlist-nav{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+#playlist-nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size:18px;
+    margin-right:-5px;
+    margin-left:-5px;
+    flex:1;
+    flex-direction: row;
+
+}
+#sec-playlists{
+    display:flex;
+    /* flex-wrap:wrap; */
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+
+}
+#playlist1{
+    border:2px solid gray;
+    background: white;
+    text-align: center;
+    padding:20px;
+    padding-left:80px;
+    padding-right:80px;
+    padding-bottom:40px;
+    color:black;
+    box-sizing: border-box;
+    margin:20px;
+    width:60%;
+    height:80%;
+}
+#playlist1 img{
+    width:40%;
+}
+#playlists{
+    align-items: center;
+    justify-content: space-between;
+}
+#sec-playlist{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    flex:1;
+}
+
+
+/*PROFILE*/
+#playlists img{
+    margin:0;
+    width:max-content;
 }
 
 /*header*/
@@ -111,7 +174,25 @@ html,body{
         margin-right: 60px;
 
     }
-
+/*BLOG*/
+#blog{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#popular{
+    flex:1;
+    justify-content: space-between;
+    border:2px solid gray;
+    padding-bottom:7%;
+    margin:10px;
+    padding-top:10px;
+}
+.post{
+    font-size:12px;
+    padding:10px;
+}
  /*ABOUT US*/  
  
  #all{
@@ -120,13 +201,53 @@ html,body{
     height:50%;
  }
 /*CONTACT*/
+.search p{
+    display:block;
+    text-align: left;
+    background:white;
+    color:black;
+    border: 2px solid gray;
+}
 #simple{
     display:flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    text-align: left;
+}
+.contact{
+    flex:1;
+    margin:20px;
 }
 #simple ul{
     flex:1;
+}
+#all{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    text-align: left;
+    /* margin:20%; */
+}
+.info{
+    margin-left:20%;
+    margin-right:20px;
+    margin-top:20px;
+}
+.info p{
+    padding-right:5%;
+    padding-bottom:30%;
+    background:white;
+    color:black;
+    border: 2px solid gray;
+}
+.search{
+    flex:1 ;
+    margin-bottom:60px;
+}
+.help{
+    flex:2;
+}
+.info{
+ flex:3;
 }
 @media (max-width: 768px) {
     #footer{
