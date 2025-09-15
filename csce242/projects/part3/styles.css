@@ -18,8 +18,14 @@ html,body{
     display:flex;
     flex-direction:column;
 }
-main{
+#all{
     flex:1;
+    color:white;
+    background-color: black;
+    border: 2px solid gray;
+    box-shadow: 2px 2px;
+    margin:20px;
+    padding:10px;
 }
 
 /*header*/
@@ -106,6 +112,22 @@ main{
 
     }
 
+ /*ABOUT US*/  
+ 
+ #all{
+    text-align: center;
+    font-size: x-large;
+    height:50%;
+ }
+/*CONTACT*/
+#simple{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#simple ul{
+    flex:1;
+}
 @media (max-width: 768px) {
     #footer{
         display:flex;
