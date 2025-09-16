@@ -542,6 +542,7 @@ body {
         justify-content: space-between;
         flex-direction: row;
         width: 100%;
+
         align-items: center;
         flex-wrap: wrap;
     }
@@ -552,6 +553,9 @@ body {
 
     .popular {
         flex: 1;
+        flex-wrap: wrap;
+        height:80%;
+        width:90%;
         justify-content: space-between;
         border: 2px solid gray;
         padding-bottom: 7%;
@@ -562,6 +566,14 @@ body {
     .post {
         font-size: 12px;
         padding: 10px;
+    }
+    .blog-div{
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    #main-blog{
+        flex:1;
     }
 
     /*FOOTER*/
