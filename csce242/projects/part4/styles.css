@@ -343,8 +343,38 @@ body {
         padding: 0;
     }
 
+    #header {
+        width: 101.15%;
+    }
+
     #all img {
         width: 100%;
+    }
+
+    /*HOME*/
+    #home {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        height: 100%;
+    }
+
+    .extra {
+        background-color: none;
+        border: solid;
+        color: white;
+        text-align: center;
+        margin: 0px;
+        padding-bottom: 300px;
+    }
+
+
+    #friends {
+        flex: 1;
+    }
+
+    #main-playlist {
+        flex: 3;
     }
 
     /*PROFILE*/
@@ -394,7 +424,7 @@ body {
     }
 
     #sec-playlists {
-        flex: 1 1 20%;
+        flex: 1;
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -424,7 +454,7 @@ body {
         border: 2px solid gray;
         width: 40%;
         height: 40%;
-        flex: 1;
+        flex: 1 1 1 50%;
         flex-direction: row;
         flex-wrap: wrap;
     }
@@ -438,26 +468,29 @@ body {
         display: flex;
         flex: row;
         flex-wrap: wrap;
-        width:92%;
+        width: 92%;
         overflow: hidden;
     }
-    .contact{
-        flex:1;
+
+    .contact {
+        flex: 1;
         padding-top: 80px;
     }
-    .info{
-        flex:2;
-        width:45%;
+
+    .info {
+        flex: 2;
+        width: 45%;
         padding-top: 40px;
     }
+
     .info h3 {
         font-size: 20px;
-        
+
     }
 
     .info p {
         font-size: 20px;
-        padding-bottom:90px;
+        padding-bottom: 90px;
     }
 
     #main-contact h1 {
@@ -466,8 +499,8 @@ body {
 
     #search p {
         font-size: 15px;
-        margin-top:20px;
-        margin-bottom:20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
 
     }
 
@@ -481,15 +514,6 @@ body {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-    }
-
-    .extra {
-        background-color: none;
-        border: solid;
-        color: white;
-        text-align: center;
-        margin: 10px;
-        padding-bottom: 400px;
     }
 
     #all {
@@ -535,13 +559,13 @@ body {
     }
 
     /*FOOTER*/
-    #footer-profile,
+    #footer,
     #sec-nav {
-        width: 100%;
+        width: 95.45%;
         background-color: black;
     }
 
-    #footer-profile {
+    #footer {
         /* flex:3; */
         display: flex;
         justify-content: space-between;
@@ -559,7 +583,7 @@ body {
 
     }
 
-    #footer-profile #sec-nav {
+    #footer #sec-nav {
         flex: 1;
         flex-direction: row;
         justify-content: space-between;
@@ -568,7 +592,7 @@ body {
 
     }
 
-    #footer-profile a {
+    #footer a {
 
         text-decoration: none;
         list-style: none;
@@ -585,13 +609,5 @@ body {
         align-items: center;
         padding: 10px;
 
-    }
-
-    #friends {
-        flex: 1;
-    }
-
-    #main-playlist {
-        flex: 4;
     }
 }
