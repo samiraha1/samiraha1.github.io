@@ -1,0 +1,16 @@
+body{
+    background-color: #6E7980;
+    color:#D7EEFA;
+}
+#header{
+    text-align:center;
+    background-color: #4B5257;
+    padding-bottom:60px;
+    padding-top:10px;
+}
+footer{
+    text-align:center;
+    background-color: #4B5257;
+    margin-top:-3%;
+    padding:10px
+}
