@@ -1,10 +1,10 @@
 body {
-    background-color: #2E3A24;
+    background-color: #202833;
 }
 
 ul {
     list-style: none;
-    color: #F6F5F3;
+    color: #63F2D8;
     margin: 10px;
 }
 
@@ -17,7 +17,7 @@ h1 {
 }
 
 a {
-    color: #F6F5F3;
+    color: #63F2D8;
 }
 
 html,
@@ -26,13 +26,14 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    background-image:url(images/csce.jpg);
 }
 
 #all {
     flex: 1;
-    color: #F0F4E7;
-    background-color: #547D4C;
-    border: 2px solid gray;
+    color: #63F2D8;
+    background-color: #0B0C10;
+    border: 2px solid #202833;
     box-shadow: 2px 2px 4px black;
     margin: 20px;
     padding: 10px;
@@ -87,15 +88,15 @@ body {
 }
 
 .playlist1 {
-    border: 2px solid #D1E8D1;
-    background: #D1E8D1;
-    box-shadow:2px 2px 4px black;
+    border: 2px solid #49A69C;
+    background: #202833;
+    box-shadow:2px 2px 4px #49A69C;
     text-align: center;
     padding: 20px;
     padding-left: 80px;
     padding-right: 80px;
     padding-bottom: 40px;
-    color: #2E3A24;
+    color: #63F2D8;
     box-sizing: border-box;
     margin: 10px;
     width: 60%;
@@ -129,12 +130,12 @@ body {
     flex-direction: row;
     justify-content: space-between;
     text-align: center;
-    background-color: #4B5257;
-    color: #D7EEFA;
+    background-color: #0B0C10;
+    color: #63F2D8;
     margin-top: -10px;
     margin-left: -8px;
     margin-right: -8px;
-    border-bottom:2px solid gray;
+    border-bottom:2px solid #49A69C;
 
 }
 
@@ -152,9 +153,9 @@ body {
 }
 
 .extra {
-    background-color: #0B1C4D;
-    border: 2px solid gray;
-    color: #D7EEFA;
+    background-color: #0B0C10;
+    border: 2px solid #49A69C;
+    color: #63F2D8;
     text-align: center;
     margin: 10px;
     padding-bottom: 400px;
@@ -175,14 +176,14 @@ body {
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: #4B5257;
+    background-color: #0B0C10;
     margin-top: 20px;
     padding-bottom: 40px;
     padding: 40px;
     margin-left: -8px;
     margin-right: -8px;
     margin-bottom: -10%;
-    border-top:2px solid gray;
+    border-top:2px solid #49A69C;
 
 
 
@@ -193,7 +194,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid gray;
+    border: 2px solid #49A69C;
 
 }
 
@@ -201,7 +202,7 @@ body {
 
     text-decoration: none;
     list-style: none;
-    color: #D7EEFA;
+    color: #49A69C;
 }
 
 #sec-nav ul {
@@ -237,7 +238,7 @@ body {
 .popular {
     flex: 1;
     justify-content: space-between;
-    border: 2px solid gray;
+    border: 2px solid #49A69C;
     padding-bottom: 7%;
     margin: 10px;
     padding-top: 10px;
@@ -267,10 +268,11 @@ body {
 #search p {
     display: block;
     text-align: left;
-    background: #91A0A8;
-    color: #D7EEFA;
-    border: 2px solid gray;
+    background: #F6F5F3;
+    color: #202833;
+    border: 2px solid #49A69C;
     padding-right: 40px;
+    padding-left: 5px;
 }
 
 #simple {
@@ -303,11 +305,12 @@ body {
 }
 
 .info p {
+    padding-left: 5px;
     padding-right: 5%;
     padding-bottom: 20%;
     background: #FAEDFF;
-    color: #0B1C4D;
-    border: 2px solid gray;
+    color: #202833;
+    border: 2px solid #49A69C;
 }
 
 .search {
