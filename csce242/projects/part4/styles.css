@@ -145,11 +145,12 @@ body {
 }
 
 
-/*MAIN*/
+/*HOME*/
 #home {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    margin-top:15px;
 }
 
 .extra {
