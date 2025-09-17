@@ -32,7 +32,18 @@ document.getElementById("txt-emotion").onkeyup = (event) => {
     document.getElementById("p-emotion").innerHTML = `You are feeling ${userInput}.`;
     /*back ticks needed to evaluate dollar sign*/
     document.getElementById("p-emotion").innerHTML = `You are feeling ${userInput}.`;
-    
-
-
 };
+
+document.getElementById("txt-color").onkeyup = (event) => {
+    const userInput = event.currentTarget.value;
+    document.getElementById("p-color").innerHTML = ``
+}
+
+document.getElementById("p-color").onclick = () => {
+    const color = document.getElementById("txt-color").value;
+    const p = document.getElementById("p-color");
+   
+    if(color == ""){
+        console.log("blank");
+    }
+}

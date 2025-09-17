@@ -1,10 +1,10 @@
 body {
-    background-color: white;
+    background-color: #2E3A24;
 }
 
 ul {
     list-style: none;
-    color: white;
+    color: #F6F5F3;
     margin: 10px;
 }
 
@@ -17,7 +17,7 @@ h1 {
 }
 
 a {
-    color: white;
+    color: #F6F5F3;
 }
 
 html,
@@ -30,10 +30,10 @@ body {
 
 #all {
     flex: 1;
-    color: white;
-    background-color: black;
+    color: #F0F4E7;
+    background-color: #547D4C;
     border: 2px solid gray;
-    box-shadow: 2px 2px;
+    box-shadow: 2px 2px 4px black;
     margin: 20px;
     padding: 10px;
     align-items: center;
@@ -56,7 +56,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 
 }
 
@@ -73,7 +73,9 @@ body {
 }
 
 #playlist-nav li {
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-left:40px;
+    margin-right:40px;
 }
 
 #sec-playlists {
@@ -85,22 +87,23 @@ body {
 }
 
 .playlist1 {
-    border: 2px solid gray;
-    background: white;
+    border: 2px solid #D1E8D1;
+    background: #D1E8D1;
+    box-shadow:2px 2px 4px black;
     text-align: center;
     padding: 20px;
     padding-left: 80px;
     padding-right: 80px;
     padding-bottom: 40px;
-    color: black;
+    color: #2E3A24;
     box-sizing: border-box;
-    margin: 20px;
-    width: 80%;
+    margin: 10px;
+    width: 60%;
     height: 80%;
 }
 
 .playlist1 img {
-    width: 40%;
+    width: 70%;
 }
 
 .playlists {
@@ -126,11 +129,13 @@ body {
     flex-direction: row;
     justify-content: space-between;
     text-align: center;
-    background-color: black;
-    color: white;
+    background-color: #4B5257;
+    color: #D7EEFA;
     margin-top: -10px;
     margin-left: -8px;
     margin-right: -8px;
+    border-bottom:2px solid gray;
+
 }
 
 .top {
@@ -140,16 +145,16 @@ body {
 
 
 /*MAIN*/
-#main {
+#home {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
 }
 
 .extra {
-    background-color: black;
+    background-color: #0B1C4D;
     border: 2px solid gray;
-    color: white;
+    color: #D7EEFA;
     text-align: center;
     margin: 10px;
     padding-bottom: 400px;
@@ -170,13 +175,15 @@ body {
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: black;
+    background-color: #4B5257;
     margin-top: 20px;
     padding-bottom: 40px;
     padding: 40px;
     margin-left: -8px;
     margin-right: -8px;
     margin-bottom: -10%;
+    border-top:2px solid gray;
+
 
 
 }
@@ -186,7 +193,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid white;
+    border: 2px solid gray;
 
 }
 
@@ -194,7 +201,7 @@ body {
 
     text-decoration: none;
     list-style: none;
-    color: white;
+    color: #D7EEFA;
 }
 
 #sec-nav ul {
@@ -260,8 +267,8 @@ body {
 #search p {
     display: block;
     text-align: left;
-    background: white;
-    color: black;
+    background: #91A0A8;
+    color: #D7EEFA;
     border: 2px solid gray;
     padding-right: 40px;
 }
@@ -298,8 +305,8 @@ body {
 .info p {
     padding-right: 5%;
     padding-bottom: 20%;
-    background: white;
-    color: black;
+    background: #FAEDFF;
+    color: #0B1C4D;
     border: 2px solid gray;
 }
 
@@ -330,7 +337,7 @@ body {
     text-align: left;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
 
     html,
     body {
@@ -340,6 +347,8 @@ body {
         margin-left: 0%;
         display: flex;
         flex-direction: column;
+        background:#3B7565;
+        color:#F6F5F3;
     }
 
     body,
@@ -349,7 +358,9 @@ body {
         margin: 0;
         padding: 0;
     }
-
+    #all{
+        background:#F9F8FD;
+    }
     #title h1 {
         margin-top: 20px;
         text-align: center;
@@ -396,10 +407,10 @@ body {
     /*PROFILE*/
     .profile {
         flex: 1;
-        color: white;
-        background-color: black;
+        color: #FAEDFF;
+        background-color: #FAEDFF;
         border: none;
-        box-shadow: 2px 2px;
+        box-shadow: 2px 2px 4px black;
         margin: 0px;
         padding: 10px;
         align-items: center;
@@ -422,7 +433,7 @@ body {
         flex: 1;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-between;
         flex-wrap: wrap;
         margin-top: -20%;
         margin-left: 0%;
@@ -626,7 +637,7 @@ body {
         color: white;
         background-color: black;
         border: none;
-        box-shadow: 2px 2px;
+        box-shadow: 2px 2px 4px black;
         margin: 10px;
         padding: 10px;
         align-items: center;
