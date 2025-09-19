@@ -133,8 +133,8 @@ body {
     background-color: #0B0C10;
     color: #63F2D8;
     margin-top: -10px;
-    margin-left: -8px;
-    margin-right: -8px;
+    /* margin-left: -8px;
+    margin-right: -8px; */
     border-bottom:2px solid #49A69C;
 
 }
@@ -143,7 +143,12 @@ body {
     flex: 1;
     margin: 20px;
 }
-
+#header img{
+    width:160%;
+    padding:-100%;
+    margin:-25%;
+    margin-top:-32%;
+}
 
 /*HOME*/
 #home {
@@ -351,7 +356,7 @@ body {
         margin-left: 0%;
         display: flex;
         flex-direction: column;
-        background:#3B7565;
+        background-image: url(images/csce.jpg);
         color:#F6F5F3;
     }
 
