@@ -26,7 +26,7 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    background-image:url(images/csce.jpg);
+    background-image: url(images/csce.jpg);
 }
 
 #all {
@@ -75,8 +75,8 @@ body {
 
 #playlist-nav li {
     justify-content: space-between;
-    margin-left:40px;
-    margin-right:40px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 #sec-playlists {
@@ -90,7 +90,7 @@ body {
 .playlist1 {
     border: 2px solid #49A69C;
     background: #202833;
-    box-shadow:2px 2px 4px #49A69C;
+    box-shadow: 2px 2px 4px #49A69C;
     text-align: center;
     padding: 20px;
     padding-left: 80px;
@@ -104,6 +104,26 @@ body {
 }
 
 .playlist1 img {
+    width: 70%;
+}
+
+.profile-playlist {
+    border: 2px solid #49A69C;
+    background: #202833;
+    box-shadow: 2px 2px 4px #49A69C;
+    text-align: center;
+    padding: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 40px;
+    color: #63F2D8;
+    box-sizing: border-box;
+    margin: 10px;
+    width: 60%;
+    height: 80%;
+}
+
+.profile-playlist img {
     width: 70%;
 }
 
@@ -135,7 +155,7 @@ body {
     margin-top: -10px;
     /* margin-left: -8px;
     margin-right: -8px; */
-    border-bottom:2px solid #49A69C;
+    border-bottom: 2px solid #49A69C;
 
 }
 
@@ -143,11 +163,12 @@ body {
     flex: 1;
     margin: 20px;
 }
-#header img{
-    width:140%;
+
+#header img {
+    width: 140%;
     /* padding:-100%; */
-    margin:-25%;
-    margin-top:-28%;
+    margin: -25%;
+    margin-top: -28%;
 }
 
 /*HOME*/
@@ -155,7 +176,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    margin-top:15px;
+    margin-top: 15px;
 }
 
 .extra {
@@ -189,7 +210,7 @@ body {
     margin-left: -8px;
     margin-right: -8px;
     margin-bottom: -10%;
-    border-top:2px solid #49A69C;
+    border-top: 2px solid #49A69C;
 
 
 
@@ -357,7 +378,7 @@ body {
         display: flex;
         flex-direction: column;
         background-image: url(images/csce.jpg);
-        color:#63F2D8;
+        color: #63F2D8;
     }
 
     body,
@@ -367,23 +388,29 @@ body {
         margin: 0;
         padding: 0;
     }
-    #all{
-        background:#F9F8FD;
+
+    main {
+        display: block;
+        overflow: auto;
     }
+
     #title h1 {
         margin-top: 20px;
         text-align: center;
         font-size: 50px;
         margin: 10px;
     }
-    #title{
-        padding-top:20px;
+
+    #title {
+        padding-top: 20px;
     }
+
     #header {
-        width: 101.15%;
+        width: 100%;
     }
-    #header img{
-        margin-top:-30px;
+
+    #header img {
+        margin-top: -30px;
         margin-bottom: -35px;
     }
 
@@ -403,10 +430,12 @@ body {
         text-align: center;
         margin: 10px;
         padding-bottom: 300px;
-        border: 2px solid gray ;
+        border: 2px solid #202833;
+        box-shadow: 2px 2px 8px #0B0C10;
     }
-    .extra:first-child{
-        margin-right:0%;
+
+    .extra:first-child {
+        margin-right: 0%;
     }
 
 
@@ -416,6 +445,32 @@ body {
 
     #main-playlist {
         flex: 3;
+    }
+
+    .profile-playlist {
+        width: 80%;
+        height: 80%;
+        background-color: #202833;
+        border: 2px solid #63F2D8;
+        width: 80%;
+        height: 80%;
+        flex: 1 1 1 50%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .profile-playlist img {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*ABOUT US*/
+    .p{
+        padding:40px;
+        line-height: 1.7;
+        font-size:x-large;
     }
 
     /*PROFILE*/
@@ -467,7 +522,7 @@ body {
         justify-content: space-between;
         align-items: center;
         margin-left: -20px;
-        margin: 0%;
+        margin-top: -10%;
         display: flex;
 
 
@@ -480,15 +535,18 @@ body {
     }
 
     #playlist-nav li {
-        margin: 20px;
-
+        margin: 10px;
+        margin-top:-50px;
+    }
+    #playlist-nav a{
+        text-decoration: none;
     }
 
     .playlist1 {
         background-color: #202833;
         border: 2px solid #63F2D8;
-        width: 80%;
-        height: 80%;
+        width: 40%;
+        height: 40%;
         flex: 1 1 1 50%;
         flex-direction: row;
         flex-wrap: wrap;
@@ -496,6 +554,10 @@ body {
 
     .playlist1 h1 {
         font-size: 20px;
+        text-align:center;
+        margin: 10px;
+        width:100%;
+        margin-left:-3px;
     }
 
     /*CONTACT*/
@@ -546,30 +608,35 @@ body {
 
     /*BLOG*/
     #blog {
-        flex: 1;
-        display: flex;
-        justify-content: space-between;
-        flex-direction: row;
+        /* flex: 1; */
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);      /* flex-direction: row; */
         width: 100%;
-
-        align-items: center;
-        flex-wrap: wrap;
+        gap:20px;
+        margin: 0 auto;
+        max-width: 10000px;
     }
-
+    .blog-title{
+        /* width:100%; */
+        display:block;
+        margin-bottom:20px;
+        text-align: center;
+        color:#63F2D8;
+    }
     #blog p {
         text-align: center;
     }
-
+    #main-blog{
+        color:#63F2D8;
+    }
     .popular {
-        flex: 1;
-        flex-wrap: wrap;
-        height: 80%;
-        width: 90%;
-        justify-content: space-between;
-        border: 2px solid #202833;
+        flex: 0 0 45%;
+        background-color: #202833;
+        border: 2px solid #63F2D8;
         padding-bottom: 7%;
         margin: 10px;
         padding-top: 10px;
+        box-sizing: border-box;
     }
 
     .post {
@@ -577,21 +644,11 @@ body {
         padding: 10px;
     }
 
-    .blog-div {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-
-    #main-blog {
-        flex: 1;
-    }
-
     /*FOOTER*/
     #footer,
     #sec-nav {
         width: 95.45%;
-        background-color: black;
+        background-color: #0B0C10;
     }
 
     #footer {
@@ -601,7 +658,7 @@ body {
         align-items: center;
         flex-direction: row;
         flex-wrap: wrap;
-        background-color: black;
+        background-color: #0B0C10;
         margin-top: 10px;
         /* padding-bottom:40px; */
         padding: 20px;
@@ -643,9 +700,10 @@ body {
     #all {
         flex: 1;
         color: white;
-        background-color: black;
+        background-color: #0B0C10;
         border: none;
-        box-shadow: 2px 2px 4px black;
+        box-shadow: 1px 1px 10px black;
+        border:2px solid #202833;
         margin: 10px;
         padding: 10px;
         align-items: center;
@@ -653,5 +711,5 @@ body {
 
     #all img {
         width: 100%;
-    }
+ 
 }
