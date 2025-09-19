@@ -487,8 +487,8 @@ body {
     .playlist1 {
         background-color: #202833;
         border: 2px solid #63F2D8;
-        width: 40%;
-        height: 40%;
+        width: 80%;
+        height: 80%;
         flex: 1 1 1 50%;
         flex-direction: row;
         flex-wrap: wrap;
