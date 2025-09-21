@@ -12,16 +12,22 @@
         <h4>If Statements</h4>
     </div>
     <div id="main-content">
-        <ul>
-            <li><a id="example1" href="index.html">Exercise 1</a> | </li>
+        <ul class="nav">
+            <li><a id="example1" href="index.html">Exercise 1</a></li>
             <li><a id="example2" href="exercise2.html">Exercise 2</a></li>
         </ul>
     </div>
     <div class="plants">
         <p>How many days has it been since watering your plants?</p>
-        <input type="range" min="1" max="100" value="50" class="slider" id="plantRange">
+        <input type="range" id="plantRange" min="0" max="15" value="0" class="slider" >
+
+        <div id="plantStatus">
+            <img id="plantImage" src="" alt="Plant status" width="100">
+            <p id="day"></p>
+            <p id="stat"></p>
+        </div>
     </div>
-    <script src="assignment6.js"></script>
+    <script src="assignment6.js" defer></script>
 </body>
 <footer>
     <p>@samiraha1</p>

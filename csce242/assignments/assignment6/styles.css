@@ -44,6 +44,15 @@ li {
 
 
 }
+.nav li::after{
+    content: "|";
+    margin-left:0px;
+    color:#D7EEFA;
+    
+}
+.nav li:last-child::after{
+    content:"";
+}
 /*CLOCK*/
 .digital-clock{
     background:#4B5257;
@@ -56,16 +65,6 @@ li {
     color:#D7EEFA;
     margin-top: 10px;
 }
-
-/* li:not(:last-child) {
-    border-right: 2px solid #D7EEFA;
-    padding-right: 10px;
-} */
-
-/* li:last-child {
-    padding-left: 10px;
-} */
-
 a {
     color: #D7EEFA;
     text-decoration: none;
@@ -100,6 +99,14 @@ input[type="range"]{
     margin-top:15px;
 
 }
+#status{
+    text-align: center;
+    margin-top: 20px;
+}
+#image{
+    margin: 10px auto;
+    display: block;
+}
 /* .slider::-webkit-slider-thumb{
     -webkit-appearance: none;
     appearance: none;
@@ -118,7 +125,7 @@ input[type="range"]{
 footer {
     text-align: center;
     background-color: #4B5257;
-    padding: 10px;
+    padding: 1px;
     /* padding-left: 30px; */
 
 
