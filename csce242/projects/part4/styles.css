@@ -190,7 +190,13 @@ main {
 .nav-menu{
     position:fixed;
     top:0;
-    right: -
+    right: -250px;
+    width:250px;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    padding:20px;
+
 }
 .top {
     flex: 1;
@@ -332,9 +338,9 @@ main {
 
 #blog {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: min-content;
-    align-items: center;
+    align-items: stretch;
     margin-top: 0 auto;
 }
 
@@ -370,6 +376,11 @@ main {
     text-align: center;
     font-size: x-large;
     height: 50%;
+}
+.p{
+    margin:60px;
+    line-height: 1.7;
+    font-size: 30px;
 }
 
 
