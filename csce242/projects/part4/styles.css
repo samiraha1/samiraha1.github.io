@@ -167,6 +167,8 @@ main {
 #header {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    position:relative;
     justify-content: space-between;
     text-align: center;
     background-color: #0B0C10;
@@ -177,7 +179,19 @@ main {
     border-bottom: 2px solid #49A69C;
 
 }
+.menu-btn{
+    font-size: 28px;
+    background:none;
+    border:none;
+    color:#63F2D8;
+    cursor:pointer;
 
+}
+.nav-menu{
+    position:fixed;
+    top:0;
+    right: -
+}
 .top {
     flex: 1;
     margin: 20px;
@@ -461,7 +475,18 @@ main {
         display: block;
         overflow: auto;
     }
+    /*NAV HAMBURGER*/
+   #header img {
+        width:200%;
+        margin-left: -80px;;
+        margin-top: -60px;
+    }
+    #header #nav{
+        margin-top:30px;
+        display:none;
+    }
 
+    /*SOMETHING ELSE*/
     #title h1 {
         margin-top: 20px;
         text-align: center;
@@ -477,15 +502,7 @@ main {
         padding-top:20px;
     } */
 
-    #header img {
-        width:200%;
-        margin-left: -80px;;
-        margin-top: -60px;
-    }
-    #header #nav{
-        margin-top:30px;
-        display:none;
-    }
+
     /*HOME*/
     #sec-playlists2 {
         display: grid;
@@ -497,10 +514,10 @@ main {
     .profile-playlist {
         display: flex;
         flex-direction: column;
-        align-items: left;
+        align-items: center;
         justify-content: center;
         border: 2px solid #49A69C;
-                box-shadow: 1px 1px 12px #49A69C;
+        box-shadow: 1px 1px 12px #49A69C;
 
         padding: 20px;
         text-decoration: none;
@@ -508,6 +525,7 @@ main {
     }
 
     .profile-playlist img {
+        width:50%;
         margin-bottom: 10px;
     }
 
@@ -657,14 +675,10 @@ main {
 
     }
 
-    div.blog {
-        scrollbar-color: #63F2D8;
-
-    }
-
     #blog {
         grid-template-columns: repeat(2, 1fr);
         width: 95%;
+        align-items: stretch;
     }
 
     .blog-title {

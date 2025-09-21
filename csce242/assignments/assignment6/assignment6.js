@@ -23,7 +23,7 @@ slider.addEventListener("input", function() {
         imagePlant.src="images/watered.png";
         stat.textContent = "Your plant needs watering";
     } else if(daysNumber >= 3 && daysNumber <= 5){
-        imagePlant.src = "images/withered.png";
+        imagePlant.src="im"
         stat.textContent = "The leaves are starting to drop, water soon!";
     } else if(daysNumber >= 3 && daysNumber <= 5){
         imagePlant.src = "im";
