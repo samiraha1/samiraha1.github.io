@@ -702,6 +702,11 @@ main {
     padding: 10px;
 
 }
+/*HOW TO*/
+#howTo {
+    list-style: circle;
+    text-align:left;
+}
 /*ADD PLAYLIST*/
 .add-btn{
     background:none;
