@@ -17,7 +17,29 @@ function addPlaylist() {
     if(playlistName && playlistName.trim() !== "") {
         const ul = document.getElementById("playlistList");
         const li = document.createElement("li");
-        li.textContent = playlistName;
+
+        const link = document.createElement("a");
+        link.href = "playlist.html?name=" + encodeURIComponent(playlistName);
+        link.textContent = playlistName;
+
+        li.appendChild(link);
         ul.appendChild(li);
     }
+}
+
+function getPlaylistName(){
+    const params = new URLSearchParams(window.location.search);
+    return params.get("name");
+}
+function addMovie(){
+    const movie = prompt("Enter Movie Name:");
+    if(movie && movie.trim() !== "") {
+        const ul = document.getElementById("movieList");
+        const li = document.getElementById("li");
+        li.textContent = SpeechRecognitionAlternative;
+        ul.appendChild(li);
+    }   
+}
+window.onload = function() {
+    this.document.getElementById("playlistTitle").textContent = getPlaylistName();
 }
