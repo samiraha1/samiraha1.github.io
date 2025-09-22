@@ -1,14 +1,15 @@
 body {
     background-color: #6E7980;
-    height:100%;
+    height: 100%;
     color: #D7EEFA;
     align-items: center;
-    margin:0;
-    
+    margin: 0;
+
     /* margin:0;
     padding:0; */
     /* flex:1; */
 }
+
 #header {
     text-align: center;
     /* background-color: #4B5257; */
@@ -16,9 +17,11 @@ body {
     padding-top: 10px;
     /* padding-left: 20px; */
 }
-#header h4{
-    color:#2b5975
+
+#header h4 {
+    color: #2b5975
 }
+
 /*LIST*/
 #main-content {
     justify-content: center;
@@ -34,7 +37,7 @@ ul {
     display: flex;
     flex-wrap: wrap;
     margin: 0px;
-    margin-left:-30px;
+    margin-left: -30px;
     justify-content: center;
 
 
@@ -48,124 +51,120 @@ li {
 
 
 }
-.nav li::after{
+
+#nav li::after {
     content: "|";
-    margin-left:0px;
-    color:#D7EEFA;
-    
+    margin-left: 0px;
+    color: #D7EEFA;
+
 }
-.nav li:last-child::after{
-    content:"";
+
+#nav li:last-child::after {
+    content: "";
 }
+
 /*TOGGLE NAV*/
 .menu-btn {
-    background:none;
-    border:none;
-    cursor:pointer;
-    display:block;
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: none;
 }
+
 #nav {
-    display:none;
-    flex-direction:column;
-    gap: 10px;
-    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-bottom:20px;
+    /* gap: 10px;
+    margin-top: 10px; */
 }
-.nav a {
-    text-decoration:none;
-    color:#D7EEFA;
-}
-#nav.active{
-    display:flex;
-}
+
 /*CLOCK*/
-.digital-clock{
-    background:#3e7191;
-    border-top:2px solid #D7EEFA;
-    border-bottom:2px solid #D7EEFA;
-    text-align:center;
-    padding:10px;
+.digital-clock {
+    background: #3e7191;
+    border-top: 2px solid #D7EEFA;
+    border-bottom: 2px solid #D7EEFA;
+    text-align: center;
+    padding: 10px;
 }
-#clock{
+
+#clock {
     font-size: 24px;
     font-weight: bold;
-    color:#D7EEFA;
+    color: #D7EEFA;
     margin-top: 10px;
 }
+
 a {
     color: #D7EEFA;
     text-decoration: none;
 }
 
 /*SLIDER*/
-.plants{
-    width:100%;
-    align-items:center;
-    background-color: #3e7191;
-    border-top:2px solid #D7EEFA;
-    border-bottom:2px solid #D7EEFA;
-    text-align:center;
-    padding-top:2%;
-    padding-bottom:2%;
-    /* padding-left:2%;
-    padding-right:-2%; */
-}
-.slider {
-    /* -webkit-appearance: none; */
-    /* appearance:none; */
-    width:20%;
-    height:25px;
-    background:#D7EEFA;
-    outline:none;
 
-    /* -webkit-transition: .2s; */
+.plants {
+    width: 100%;
+    align-items: center;
+    background-color: #3e7191;
+    border-top: 2px solid #D7EEFA;
+    border-bottom: 2px solid #D7EEFA;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.slider {
+    width: 20%;
+    height: 25px;
+    background: #D7EEFA;
+    outline: none;
     transition: opacity .2s;
 }
-.slider:hover{
-    opacity:1;
+
+.slider:hover {
+    opacity: 1;
 }
-input[type="range"]{
-    width:200px;
-    margin-top:15px;
+
+input[type="range"] {
+    width: 200px;
+    margin-top: 15px;
 
 }
-#status{
+
+#status {
     text-align: center;
     margin-top: 20px;
 }
-#image{
+
+#image {
     margin: 10px auto;
     display: block;
 }
-/* .slider::-webkit-slider-thumb{
-    -webkit-appearance: none;
-    appearance: none;
-    width:25px;
-    height:25px;
-    border-radius:50%;
-    background: #6E7980;
-    cursor: pointer;
-}
-.slider::-moz-range-thumb{
-    width:25px;
-    height:25px;
-    background:#6E7980;
-    cursor:pointer;
-} */
+
 footer {
     text-align: center;
-    /* background-color: #4B5257; */
     padding: 1px;
-    /* padding-left: 30px; */
-
-
 }
-@media (min-width: 768px) {
+
+@media (max-width: 768px) {
     .menu-btn {
-        display:none;
+        display: block;
     }
-    .menu {
+
+    #nav {
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        margin-top: 10px;
+    }
+    #nav.active {
         display: flex;
-        flex-direction:row;
-        justify-content: center
+    }
+
+    #nav li::after {
+        content: none;
+
     }
 }
