@@ -15,11 +15,12 @@
         <button id="menu-toggle" class="menu-btn" onclick="toggleMenu()">▼</button>
 
         <ul id="nav">
-            <li><a id="example1" href="index.html">Exercise 1</a> </li>
-            <li><a id="example2" href="exercise2.html">Exercise 2</a></li>
+            <li><a id="example1" href="#">Exercise 1</a> </li>
+            <li><a id="example2" href="#">Exercise 2</a></li>
         </ul>
     </nav>
-    <div class="plants">
+
+    <div id="plants-section" class="plants">
         <p>How many days has it been since watering your plants?</p>
         <input type="range" id="plantRange" min="1" max="12" value="0" class="slider" >
 
@@ -29,6 +30,12 @@
             <p id="stat">Slide to the amount of days since watering your plant</p>
         </div>
     </div>
+
+    <div id="clock-section" class="digital-clock" style="display:none;">
+        <p>Our digital clock</p>
+        <p id="clock">p</p>
+    </div>
+
     <script src="assignment6.js" defer></script>
 </body>
 <footer>
