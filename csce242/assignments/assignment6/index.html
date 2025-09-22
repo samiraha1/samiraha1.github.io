@@ -11,20 +11,22 @@
         <h1>Assignment 8</h1>
         <h4>If Statements</h4>
     </div>
-    <div id="main-content">
-        <ul class="nav">
-            <li><a id="example1" href="index.html">Exercise 1</a></li>
+    <nav id="main-content">
+        <button id="menu-toggle" class="menu-btn" onclick="toggleMenu()">▼</button>
+
+        <ul id="nav">
+            <li><a id="example1" href="index.html">Exercise 1</a> </li>
             <li><a id="example2" href="exercise2.html">Exercise 2</a></li>
         </ul>
-    </div>
+    </nav>
     <div class="plants">
         <p>How many days has it been since watering your plants?</p>
-        <input type="range" id="plantRange" min="0" max="15" value="0" class="slider" >
+        <input type="range" id="plantRange" min="1" max="12" value="0" class="slider" >
 
         <div id="plantStatus">
-            <img id="plantImage" src="" alt="Plant status" width="100">
+            <img id="plantImage"  width="100">
             <p id="day"></p>
-            <p id="stat"></p>
+            <p id="stat">Slide to the amount of days since watering your plant</p>
         </div>
     </div>
     <script src="assignment6.js" defer></script>

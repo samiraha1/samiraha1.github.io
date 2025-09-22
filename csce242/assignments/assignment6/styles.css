@@ -1,24 +1,28 @@
 body {
     background-color: #6E7980;
+    height:100%;
     color: #D7EEFA;
     align-items: center;
+    margin:0;
+    
     /* margin:0;
     padding:0; */
     /* flex:1; */
 }
-
 #header {
     text-align: center;
-    background-color: #4B5257;
+    /* background-color: #4B5257; */
     padding-bottom: 5px;
     padding-top: 10px;
     /* padding-left: 20px; */
 }
-
+#header h4{
+    color:#2b5975
+}
 /*LIST*/
 #main-content {
     justify-content: center;
-    background-color: #4B5257;
+    /* background-color: #4B5257; */
     margin: 0%;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -53,9 +57,31 @@ li {
 .nav li:last-child::after{
     content:"";
 }
+/*TOGGLE NAV*/
+.menu-btn {
+    background:none;
+    border:none;
+    cursor:pointer;
+    display:block;
+}
+#nav {
+    display:none;
+    flex-direction:column;
+    gap: 10px;
+    margin-top: 10px;
+}
+.nav a {
+    text-decoration:none;
+    color:#D7EEFA;
+}
+#nav.active{
+    display:flex;
+}
 /*CLOCK*/
 .digital-clock{
-    background:#4B5257;
+    background:#3e7191;
+    border-top:2px solid #D7EEFA;
+    border-bottom:2px solid #D7EEFA;
     text-align:center;
     padding:10px;
 }
@@ -74,9 +100,12 @@ a {
 .plants{
     width:100%;
     align-items:center;
-    background-color: #4B5257;
+    background-color: #3e7191;
+    border-top:2px solid #D7EEFA;
+    border-bottom:2px solid #D7EEFA;
     text-align:center;
     padding-top:2%;
+    padding-bottom:2%;
     /* padding-left:2%;
     padding-right:-2%; */
 }
@@ -124,9 +153,19 @@ input[type="range"]{
 } */
 footer {
     text-align: center;
-    background-color: #4B5257;
+    /* background-color: #4B5257; */
     padding: 1px;
     /* padding-left: 30px; */
 
 
+}
+@media (min-width: 768px) {
+    .menu-btn {
+        display:none;
+    }
+    .menu {
+        display: flex;
+        flex-direction:row;
+        justify-content: center
+    }
 }

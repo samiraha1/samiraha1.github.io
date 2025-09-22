@@ -1,3 +1,12 @@
+function toggleMenu() {
+    const btn = document.getElementById("menu-toggle");
+    const nav = document.getElementById("nav");
+
+    nav.classList.toggle("active");
+
+    btn.textContent = nav.classList.contains("active") ? "▲" : "▼" ;
+    console.log("worked")
+}
 function updateClock(){
     const now = new Date();
 

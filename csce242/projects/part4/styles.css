@@ -214,22 +214,26 @@ main {
 #sec-playlists2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    padding-left:80px;
     gap: 20px;
 }
 
 .profile-playlist {
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: center;
     justify-content: center;
     border: 2px solid #49A69C;
-    padding: 20px;
+    padding: 10px;
     text-decoration: none;
     color: #63F2D8;
+    width:80%;
 }
 
 .profile-playlist img {
     margin-bottom: 10px;
+    width:50%;
+    
 }
 
 #home {
