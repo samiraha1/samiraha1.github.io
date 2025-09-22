@@ -68,10 +68,20 @@ main {
     grid-template-columns: repeat(4, 1fr);
     padding:10px;
 
-
+ }
+ .create-header h1{
+    font-size: 60px;
+ }
+ h5{
+    margin-top:0;
+    color:#F6F5F3
  }
  .movie{
     font-size:large;
+    margin-top:20px;
+ }
+ .movie img{
+    width:60%;
  }
 
 /*PROFILE*/
@@ -175,6 +185,9 @@ main {
     margin-top: -10px;
     border-bottom: 2px solid #49A69C;
 
+}
+.menu-btn{
+    display:none;
 }
 .nav-menu {
     position: fixed;
@@ -689,6 +702,29 @@ main {
     padding: 10px;
 
 }
+/*ADD PLAYLIST*/
+.add-btn{
+    background:none;
+    color:#63F2D8;
+    border:2px solid #63F2D8;
+    padding:10px 15px;
+    margin-bottom: 15px;
+    margin:40px;
+}
+.playlistList ul{
+    text-align: center;
+    padding:0;
+}
+li{
+    padding: 8px;
+}
+.add h2{
+    margin-top:40px;
+}
+.add-btn:hover{
+    color:#296f68;
+}
+
 @media (max-width: 768px) {
 
     html,
@@ -725,7 +761,9 @@ main {
         color: #63F2D8;
         cursor: pointer;
     }
-
+    #header button{
+        padding-left:70px;
+    }
     #menu {
         display: none;
         flex-direction: column;
