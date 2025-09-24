@@ -191,6 +191,7 @@ h5 {
     /* box-shadow: 3px 3px 10px 2px #0B0C10; */
 
 }
+
 .menu-btn {
     display: none;
 }
@@ -216,18 +217,22 @@ h5 {
     width: 80%;
     margin: -23%;
     margin-top: -23%;
-    padding-left:90px;
+    padding-left: 90px;
 }
 
 /*HOME*/
 #sec-playlists2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap:30px;
-    margin:40px;
-    margin-top:20px;
+    gap: 30px;
+    margin: 40px;
+    margin-top: 20px;
     background-color: rgba(11, 12, 16, 0.85);
 
+}
+
+#sec-playlists2 a:hover {
+    color: #296f68;
 }
 
 .profile-playlist {
@@ -241,14 +246,17 @@ h5 {
     text-decoration: none;
     color: #63F2D8;
 }
+
 .profile-playlist p {
-    margin:0;
-    margin-top:10px;
-    margin-bottom:20px;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
+
 .profile-playlist h1 {
-    margin:0;
+    margin: 0;
 }
+
 .profile-playlist img {
     width: 50%;
     margin-bottom: 10px;
@@ -264,14 +272,25 @@ h5 {
 
 #home h3 {
     font-size: 40px;
-    margin-bottom:10px;
+    margin-bottom: 10px;
 }
-.add a{
-    position:absolute;
-    top:20px;
-    left:10px;
+
+.add a {
+    position: absolute;
+    top: 20px;
+    left: 10px;
     text-decoration: none;
 }
+
+.add {
+    color: #49A69C;
+    text-decoration: none;
+}
+
+.add:hover {
+    color: #296f68;
+}
+
 .extra {
     background-color: rgba(11, 12, 16, 0.85);
     border: 4px solid #0B0C10;
@@ -328,6 +347,12 @@ h5 {
     text-decoration: none;
     list-style: none;
     color: #49A69C;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#footer a:hover {
+    color: #296f68;
 }
 
 #sec-nav ul {
@@ -341,10 +366,6 @@ h5 {
     padding: 10px;
     margin-left: 60px;
     margin-right: 60px;
-}
-#footer a {
-    margin-left:100px;
-    margin-right:100px;
 }
 
 /*BLOG*/
@@ -362,6 +383,19 @@ h5 {
 .blog-title {
     margin-bottom: 20px;
     text-align: center;
+}
+
+.addBlog {
+    position: relative;
+    left: 47%;
+    top: 0px;
+    text-decoration: none;
+    color: #49A69C;
+    padding-top: 10%;
+}
+
+.addBlog:hover {
+    color: #296f68
 }
 
 #blog {
@@ -416,26 +450,30 @@ h5 {
     background: #F6F5F3;
     color: #0B0C10;
     border: 2px solid #49A69C;
-    padding:5px;
+    padding: 5px;
     padding-left: 10px;
-    margin-top:10%;
-    margin-left:5%;
+    margin-top: 10%;
+    margin-left: 5%;
     /* margin:20%; */
 }
-#search h2{
-    margin-bottom:15%;
-    font-size:xx-large;
-    color:#63F2D8;
+
+#search h2 {
+    margin-bottom: 15%;
+    font-size: xx-large;
+    color: #63F2D8;
 }
+
 #simple {
     display: flex;
     flex-direction: column;
     text-align: left;
 }
-.info h2{
-    font-size:xx-large;
-    color:#63F2D8;
+
+.info h2 {
+    font-size: xx-large;
+    color: #63F2D8;
 }
+
 .main-contact {
     display: flex;
     flex-direction: row;
@@ -445,64 +483,72 @@ h5 {
 .contact {
     flex: 1;
     margin: 20px;
-    margin-top:15px;
+    margin-top: 15px;
     margin-right: 5px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     color: #63F2D8;
 }
+
 #email {
-    border:2px solid #49A69C;
+    border: 2px solid #49A69C;
 }
+
 #simple ul {
     flex: 1;
 }
+
 #simple {
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     /* margin:10px; */
 }
-#simple a{
-    flex:1;
+
+#simple a {
+    flex: 1;
     text-decoration: none;
 }
-#simple a:hover{
-    color:#63F2D8;
+
+#simple a:hover {
+    color: #63F2D8;
 }
+
 .info {
     flex: 1;
     margin-left: 0px;
     align-items: center;
     /* margin-top: 20px; */
-    margin-left:5%;
+    margin-left: 5%;
     padding: 20px;
-    width:70%;
+    width: 70%;
     text-align: left;
     color: #63F2D8;
 }
-.info h3{
-    margin:5%;
+
+.info h3 {
+    margin: 5%;
 }
 
 .info p {
     padding-left: 5px;
     padding-right: 3%;
     padding-bottom: 20%;
-    margin:30px;
-    margin-top:10px;
-    margin-left:5%;
+    margin: 30px;
+    margin-top: 10px;
+    margin-left: 5%;
     background: #FAEDFF;
     color: #202833;
     border: 2px solid #49A69C;
 }
-#simple{
-    margin-left:5%;
-    margin-top:10%;
-    display:block;
-    height:80%;
-    border:2px solid #49A69C;
-    padding:5%;
+
+#simple {
+    margin-left: 5%;
+    margin-top: 10%;
+    display: block;
+    height: 80%;
+    border: 2px solid #49A69C;
+    padding: 5%;
 
 }
 
@@ -652,7 +698,7 @@ h5 {
 
 #blog {
     grid-template-columns: repeat(2, 1fr);
-    width: 95%;
+    width: 100%;
     align-items: stretch;
 }
 
@@ -661,9 +707,9 @@ h5 {
     /* display: block; */
     margin-bottom: 20px;
     margin-top: 20px;
-
     text-align: center;
     color: #63F2D8;
+    font-size: 35px;
 }
 
 #blog p {
@@ -671,6 +717,10 @@ h5 {
 }
 
 #main-blog {
+    color: #63F2D8;
+}
+
+.popular h2 {
     color: #63F2D8;
 }
 
@@ -697,6 +747,7 @@ h5 {
 .post {
     font-size: 20px;
     padding: 10px;
+    color: #52a89f;
 }
 
 
@@ -754,29 +805,30 @@ li {
     border: none;
     color: #63F2D8;
     cursor: pointer;
-    position:relative;
+    position: relative;
     z-index: 1001;
 }
 
 #header button {
     padding-left: 170px;
-    padding-top:20px;
+    padding-top: 20px;
 }
 
 #menu {
     display: none;
     flex-direction: column;
     text-align: left;
-    padding-right:0px;
-    padding-left:120px;
-    margin-left:20%;
-    width:50%;
-    margin-top:-55px;
+    padding-right: 0px;
+    padding-left: 120px;
+    margin-left: 20%;
+    width: 50%;
+    margin-top: -55px;
 }
 
 #menu.active {
     display: flex;
 }
+
 #menu li {
     padding: 0px 0;
 }
@@ -808,6 +860,14 @@ li {
         overflow: auto;
     }
 
+    /*HEADER*/
+    #header img {
+        width: 150%;
+        /* margin: -23%; */
+        /* margin-top: -23%; */
+        padding-left: 10px;
+    }
+
     /*NAV HAMBURGER*/
     .menu-btn {
         display: block;
@@ -835,5 +895,26 @@ li {
     #menu li {
         padding: 3px 0;
     }
+    /**/
+    /*FOOTER*/
+    #footer a {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 
+    /*HOME*/
+    #sec-playlists2 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* gap:30px;
+    margin:40px;
+    margin-top:20px;
+    background-color: rgba(11, 12, 16, 0.85); */
+
+    }
+    .extra h3{
+        font-size{
+            
+        }
+    }
 }
