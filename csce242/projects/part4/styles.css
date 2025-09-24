@@ -125,13 +125,15 @@ h5 {
     flex-direction: row;
 
 }
-#playlest-nav li{
+#playlest-nav a{
  text-decoration: none;
+ font-size:25px;
 }
 #playlist-nav li {
     justify-content: space-between;
     margin-left: 40px;
     margin-right: 40px;
+    font-size:25px;
         
 
 }
