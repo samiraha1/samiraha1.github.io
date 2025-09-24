@@ -204,7 +204,9 @@ h5 {
     /* box-shadow: 3px 3px 10px 2px #0B0C10; */
 
 }
-
+#title{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .menu-btn {
     display: none;
 }
@@ -329,25 +331,28 @@ h5 {
 
 }
 
-/*footer*/
-#footer {
+/*SECOND NAV*/
+#mainSec-nav {
     display: flex;
     /* justify-content: space-between; */
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: rgba(11, 12, 16, 0.85);
-    margin-top: 20px;
+    background-color: rgba(11, 12, 16, 0.55);
+    margin-top: 0px;
     padding-bottom: 40px;
     padding: 20px;
+    padding-top:20px;
     margin-left: -8px;
     margin-right: -8px;
-    margin-bottom: -10%;
-    border-top: 2px solid #49A69C;
+    /* margin-bottom: -10%; */
+    /* border-top: 2px solid #49A69C; */
+    border-bottom: 2px solid #63F2D8;
+    z-index: 1001;
     width: 97.7%;
 }
 
-#footer #sec-nav {
+#mainSec-nav #sec-nav {
     flex: 1;
     flex-direction: row;
     justify-content: space-evenly;
@@ -356,7 +361,7 @@ h5 {
 
 }
 
-#footer a {
+#mainSec-nav a {
     text-decoration: none;
     list-style: none;
     color: #49A69C;
@@ -364,7 +369,7 @@ h5 {
     margin-right: 100px;
 }
 
-#footer a:hover {
+#mainSec-nav a:hover {
     color: #296f68;
 }
 
@@ -376,9 +381,9 @@ h5 {
     justify-content: space-between;
     margin: 5px;
     align-items: center;
-    padding: 10px;
-    margin-left: 60px;
-    margin-right: 60px;
+    padding: 0px;
+    /* margin-left: 60px;
+    margin-right: 60px; */
 }
 
 /*BLOG*/
@@ -388,8 +393,11 @@ h5 {
     background-color: rgba(11, 12, 16, 0.85);
     border: 2px solid #0B0C10;
     box-shadow: 3px 3px 10px 6px #0B0C10;
-    margin: 20px;
+    margin: 25px;
     padding: 10px;
+    margin-top:0px;
+        /* margin-bottom:5px; */
+
     align-items: center;
     caret-color: #63F2D8;
     scrollbar-color: #63F2D8;
@@ -714,18 +722,6 @@ h5 {
 }
 
 
-#sec-nav ul {
-    display: flex;
-    flex: 1;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 5px;
-    align-items: center;
-    padding: 10px;
-
-}
-
 /*HOW TO*/
 #howTo {
     list-style: circle;
@@ -878,12 +874,12 @@ li {
     }
 
     /*FOOTER*/
-    #footer a {
-        margin-left: 0px;
-        margin-right: 0px;
+    #mainSec-nav a {
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
-    #footer {
+    #mainSec-nav {
         width: 95.4%;
     }
 
