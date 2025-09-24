@@ -2,6 +2,21 @@ function drawBtn() {
     const scene = document.getElementById("scene");
     scene.innerHTML = "";
 
+    const now = new Date();
+    const hour = now.getHours();
+
+    if (hour >= 18 || hour < 6) {
+        scene.classList.add("night");
+        const moon = document.createElement("div");
+        moon.classList.add("moon");
+        scene.appendChild(moon);
+    } else {
+        scene.classList.add("day");
+        const sun = document.createElement("div");
+        sun.classList.add("sun");
+        scene.appendChild(sun);
+    }
+
     for (let i = 0; i < 6; i++) {
         const cloud = document.createElement("div");
         cloud.classList.add("cloud");
@@ -16,8 +31,4 @@ function drawBtn() {
         tree.style.left = Math.random() * (window.innerWidth - 100) + "px";
         scene.appendChild(tree);
     }
-    const sun = document.createElement("div");
-    sun.classList.add("sun");
-    sun.style.left = Math.random() * (window.innerWidth - 100) + "px";
-    scene.appendChild(sun);
 };
