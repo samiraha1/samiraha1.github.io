@@ -372,17 +372,23 @@ h5 {
 #main-blog {
     flex: 1;
     color: #63F2D8;
-    background-color: rgba(32, 40, 51, 0.85);
-    border: 2px solid #49A69C;
+    background-color: rgba(11, 12, 16, 0.85);
+    border: 2px solid #0B0C10;
     box-shadow: 3px 3px 10px 6px #0B0C10;
     margin: 20px;
     padding: 10px;
     align-items: center;
+    caret-color: #63F2D8;
+    scrollbar-color: #63F2D8;
+
 }
 
 .blog-title {
     margin-bottom: 20px;
+    margin-top: 20px;
     text-align: center;
+    color: #63F2D8;
+    font-size: 35px;
 }
 
 .addBlog {
@@ -400,7 +406,8 @@ h5 {
 
 #blog {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
     grid-auto-rows: min-content;
     align-items: stretch;
     margin-top: 0 auto;
@@ -416,16 +423,31 @@ h5 {
     display: flex;
     flex-direction: column;
     width: 95%;
-    border: 2px solid #49A69C;
     margin: 10px;
     padding: 10px;
     align-items: center;
+    border-bottom: 2px solid #52a89f;
+    border-top: 2px solid #52a89f;
 
 }
 
 .popular .post {
     line-height: 1.5;
     padding-left: 15px;
+}
+
+#blog p {
+    text-align: center;
+}
+
+.popular h2 {
+    color: #63F2D8;
+}
+
+.post {
+    font-size: 20px;
+    padding: 10px;
+    color: #52a89f;
 }
 
 /*ABOUT US*/
@@ -681,75 +703,6 @@ h5 {
     flex-wrap: wrap;
 }
 
-/*BLOG*/
-#main-blog {
-    flex: 1;
-    color: #63F2D8;
-    background-color: rgba(11, 12, 16, 0.85);
-    border: 2px solid #0B0C10;
-    box-shadow: 3px 3px 10px 6px #0B0C10;
-    margin: 20px;
-    padding: 10px;
-    align-items: center;
-    caret-color: #63F2D8;
-    scrollbar-color: #63F2D8;
-
-}
-
-#blog {
-    grid-template-columns: repeat(2, 1fr);
-    width: 100%;
-    align-items: stretch;
-}
-
-.blog-title {
-    /* width:100%; */
-    /* display: block; */
-    margin-bottom: 20px;
-    margin-top: 20px;
-    text-align: center;
-    color: #63F2D8;
-    font-size: 35px;
-}
-
-#blog p {
-    text-align: center;
-}
-
-#main-blog {
-    color: #63F2D8;
-}
-
-.popular h2 {
-    color: #63F2D8;
-}
-
-.popular {
-    display: flex;
-    flex-direction: column;
-    width: 95%;
-    border: none;
-    margin: 10px;
-    padding: 10px;
-    /* font-size:40px; */
-    text-align: center;
-}
-
-/* .popular h2{
-        align-items: center;
-    } */
-.popular img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-}
-
-.post {
-    font-size: 20px;
-    padding: 10px;
-    color: #52a89f;
-}
-
 
 #sec-nav ul {
     display: flex;
@@ -861,6 +814,10 @@ li {
     }
 
     /*HEADER*/
+    .top {
+        padding-top: 0px;
+    }
+
     #header img {
         width: 150%;
         /* margin: -23%; */
@@ -878,11 +835,19 @@ li {
         cursor: pointer;
     }
 
+    #menu {
+        padding-right: 0px;
+        padding-left: 90px;
+        margin-left: 10%;
+        width: 50%;
+        margin-top: -55px;
+    }
+
     #header button {
         padding-left: 70px;
     }
 
-    #menu {
+    #title #menu {
         display: none;
         flex-direction: column;
         text-align: center;
@@ -895,11 +860,50 @@ li {
     #menu li {
         padding: 3px 0;
     }
-    /**/
+
+    /*CONTACT*/
+    .info h2 {
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
     /*FOOTER*/
     #footer a {
         margin-left: 0px;
         margin-right: 0px;
+    }
+
+    #footer {
+        width: 95.4%;
+    }
+
+    /*BLOG*/
+    #main-blog {
+        width: 90%;
+    }
+
+    .popular {
+        width: 90%;
+        border-bottom: 2px solid #52a89f;
+        border-top: 2px solid #52a89f;
+
+        margin: 10px;
+        padding: 10px;
+
+    }
+
+    .addBlog {
+        position: relative;
+        left: 43%;
+        top: 0px;
+    }
+
+    /*About us*/
+    .p {
+        margin:0px;
+        margin-top: 35px;
+        line-height: 1.7;
+        font-size: 25px;
     }
 
     /*HOME*/
@@ -912,9 +916,27 @@ li {
     background-color: rgba(11, 12, 16, 0.85); */
 
     }
-    .extra h3{
-        font-size{
-            
-        }
+
+    #friends h3 {
+        font-size: 25px;
+    }
+
+    #main-playlist h3 {
+        font-size: 25px;
+    }
+
+    #friends {
+        flex: 1;
+    }
+
+    #main-playlist {
+        flex: 4;
+        margin: 10px;
+        /* margin-left: -10px; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0 auto;
+
     }
 }
