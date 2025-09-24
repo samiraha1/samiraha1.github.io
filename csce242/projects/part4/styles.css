@@ -46,7 +46,7 @@ main {
     flex: 1;
     color: #63F2D8;
     background-color: rgba(32, 40, 51, 0.85);
-    border: 2px solid #296f68;
+    border: 4px solid #0B0C10;
     box-shadow: 3px 3px 10px 6px #0B0C10;
     margin: 20px;
     padding: 10px;
@@ -103,7 +103,7 @@ h5 {
     color: #63F2D8;
     background-color: rgba(32, 40, 51, 0.85);
     ;
-    border: 2px solid #296f68;
+    border: 2px solid #0B0C10;
     box-shadow: 3px 3px 10px 6px #0B0C10;
     margin: 20px;
     padding: 10px;
@@ -188,7 +188,8 @@ h5 {
     background-color: rgba(32, 40, 51, 0.85);
     color: #63F2D8;
     margin-top: -10px;
-    border-bottom: 2px solid #296f68;
+    border-bottom: 2px solid #49A69C;
+    /* box-shadow: 3px 3px 10px 2px #0B0C10; */
 
 }
 
@@ -214,7 +215,7 @@ h5 {
 }
 
 #header img {
-    width: 120%;
+    width: 80%;
     margin: -23%;
     margin-top: -23%;
     padding-left:90px;
@@ -233,7 +234,7 @@ h5 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 2px solid #296f68;
+    border: 2px solid #202833;
     padding: 10px;
     text-decoration: none;
     color: #63F2D8;
@@ -260,7 +261,7 @@ h5 {
 
 .extra {
     background-color: rgba(32, 40, 51, 0.85);
-    border: 2px solid #296f68;
+    border: 2px solid ;
     color: #63F2D8;
     text-align: center;
     margin: 10px;
@@ -295,16 +296,16 @@ h5 {
     margin-left: -8px;
     margin-right: -8px;
     margin-bottom: -10%;
-    border-top: 2px solid #296f68;
-    width: 95.4%;
+    border-top: 2px solid #49A69C;
+    width: 97.7%;
 }
 
 #footer #sec-nav {
     flex: 1;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    border: 2px solid #296f68;
+    border: 2px solid #49A69C;
 
 }
 
@@ -326,14 +327,17 @@ h5 {
     margin-left: 60px;
     margin-right: 60px;
 }
-
+#footer a {
+    margin-left:100px;
+    margin-right:100px;
+}
 
 /*BLOG*/
 #main-blog {
     flex: 1;
     color: #63F2D8;
     background-color: rgba(32, 40, 51, 0.85);
-    border: 2px solid #296f68;
+    border: 2px solid #49A69C;
     box-shadow: 3px 3px 10px 6px #0B0C10;
     margin: 20px;
     padding: 10px;
@@ -363,7 +367,7 @@ h5 {
     display: flex;
     flex-direction: column;
     width: 95%;
-    border: 2px solid #296f68;
+    border: 2px solid #49A69C;
     margin: 10px;
     padding: 10px;
     align-items: center;
@@ -395,18 +399,27 @@ h5 {
     display: block;
     text-align: left;
     background: #F6F5F3;
-    color: #202833;
-    border: 2px solid #296f68;
-    padding-left: 5px;
+    color: #0B0C10;
+    border: 2px solid #49A69C;
+    padding:5px;
+    padding-left: 10px;
+    margin-top:10%;
+    margin-left:5%;
+    /* margin:20%; */
 }
-
+#search h2{
+    margin-bottom:15%;
+    font-size:xx-large
+}
 #simple {
     display: flex;
     flex-direction: column;
     text-align: left;
 }
-
-#main-contact {
+.info h2{
+    font-size:xx-large;
+}
+.main-contact {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -415,33 +428,65 @@ h5 {
 .contact {
     flex: 1;
     margin: 20px;
+    margin-top:15px;
     margin-right: 5px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     color: #63F2D8
 }
-
+#email {
+    border:2px solid #49A69C;
+}
 #simple ul {
     flex: 1;
 }
-
+#simple {
+    display: flex;
+    flex-direction:row;
+    /* margin:10px; */
+}
+#simple a{
+    flex:1;
+    text-decoration: none;
+}
+#simple a:hover{
+    color:#296f68;
+}
 .info {
     flex: 1;
     margin-left: 0px;
     align-items: center;
-    margin-top: 20px;
-    padding: 50px;
+    /* margin-top: 20px; */
+    margin-left:5%;
+    padding: 20px;
+    width:70%;
     text-align: left;
     color: #63F2D8;
+}
+.info h3{
+    margin:5%;
 }
 
 .info p {
     padding-left: 5px;
-    padding-right: 5%;
+    padding-right: 3%;
     padding-bottom: 20%;
+    margin:30px;
+    margin-top:10px;
+    margin-left:10%;
     background: #FAEDFF;
     color: #202833;
-    border: 2px solid #296f68;
+    border: 2px solid #49A69C;
+}
+#simple{
+    margin-left:5%;
+    margin-top:10%;
+    display:block;
+    height:80%;
+    border:2px solid #49A69C;
+    padding:5%;
+
 }
 
 /*SETTINGS*/
@@ -518,7 +563,7 @@ h5 {
 
 .extra {
     background-color: rgba(32, 40, 51, 0.85);
-    border: 2px solid #296f68;
+    border: 2px solid #49A69C;
     box-shadow: 3px 3px 10px 6px #0B0C10;
     color: #63F2D8;
     text-align: center;
@@ -723,7 +768,7 @@ h5 {
 .add-btn {
     background: none;
     color: #63F2D8;
-    border: 2px solid #296f68;
+    border: 2px solid #49A69C;
     padding: 10px 15px;
     margin-bottom: 15px;
     margin: 40px;
