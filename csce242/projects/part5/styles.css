@@ -205,7 +205,10 @@ h5 {
 
 }
 #title{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:"Racing Sans One", sans-serif;
+    font-size:40px;
+    letter-spacing: 2px;
+    font-weight:600;
 }
 .menu-btn {
     display: none;

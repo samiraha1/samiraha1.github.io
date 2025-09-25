@@ -6,11 +6,13 @@ function drawBtn() {
     const hour = now.getHours();
 
     if (hour >= 18 || hour < 6) {
+        scene.classList.remove("day");
         scene.classList.add("night");
         const moon = document.createElement("div");
         moon.classList.add("moon");
         scene.appendChild(moon);
     } else {
+        scene.classList.remove("night");
         scene.classList.add("day");
         const sun = document.createElement("div");
         sun.classList.add("sun");
