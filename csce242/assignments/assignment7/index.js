@@ -5,19 +5,19 @@ function drawBtn() {
     const now = new Date();
     const hour = now.getHours();
 
-        scene.classList.remove("day", "night");
+        document.body.classList.remove("day", "night");
 
     if (hour >= 18 || hour < 6) {
         console.log("Night mode");
         // scene.classList.remove("day");
-        scene.classList.add("night");
+        document.body.classList.add("night");
         const moon = document.createElement("div");
         moon.classList.add("moon");
         scene.appendChild(moon);
     } else {
         // scene.classList.remove("night");
         console.log("day");
-        scene.classList.add("day");
+        document.body.classList.add("day");
         const sun = document.createElement("div");
         sun.classList.add("sun");
         scene.appendChild(sun);

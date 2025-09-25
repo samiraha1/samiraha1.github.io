@@ -15,10 +15,10 @@ h1, h3 {
 
 
 }
-#scene.day{
+body.day{
     background:skyblue;
 }
-#scene.night{
+body.night{
     background:black;
     color: rgb(101, 201, 235);
 }
