@@ -5,14 +5,18 @@ function drawBtn() {
     const now = new Date();
     const hour = now.getHours();
 
+        scene.classList.remove("day", "night");
+
     if (hour >= 18 || hour < 6) {
-        scene.classList.remove("day");
+        console.log("Night mode");
+        // scene.classList.remove("day");
         scene.classList.add("night");
         const moon = document.createElement("div");
         moon.classList.add("moon");
         scene.appendChild(moon);
     } else {
-        scene.classList.remove("night");
+        // scene.classList.remove("night");
+        console.log("day");
         scene.classList.add("day");
         const sun = document.createElement("div");
         sun.classList.add("sun");
@@ -33,4 +37,8 @@ function drawBtn() {
         tree.style.left = Math.random() * (window.innerWidth - 100) + "px";
         scene.appendChild(tree);
     }
-};
+    console.log(scene.className);
+        console.log("scene classes: ", scene.className);
+
+}
+document.addEventListener("DOMContentLoaded", drawBtn);

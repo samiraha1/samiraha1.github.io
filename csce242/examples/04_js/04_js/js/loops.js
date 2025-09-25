@@ -15,6 +15,10 @@ document.getElementById("btn-show-toys").onclick = () => {
         toyList.append(li);
     }
 
-    /* second way */
-    toys.forEach(()=>{})
+    /* second way preffered*/
+    toys.forEach(()=>{
+        const li = document.getElementById("li");
+        li.innerHTML = toyList;
+        toyList.append(li);
+    })
 }

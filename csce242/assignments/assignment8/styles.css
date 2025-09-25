@@ -1,5 +1,34 @@
 body{
-    background:#1081C7;
-    color: #27D5E8;
+    background:#F6C8B8;
+    color: #5b653e;
     text-align:center;
+}
+
+#image{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.img{
+    border:5px solid #F69C9E;
+    border-radius: 5px;
+    /* display:block;
+    width:80%;
+    height:80%; */
+}
+img {
+    /* width:80%;
+    height:80%; */
+}
+p{
+    position: relative;
+    bottom:80px;
+    font-size:30px;
+    left:0px;
+    background: rgba(246, 156, 158, .7);
+    padding-bottom:10px;
+    /* -webkit-text-stroke:1px #F6C8B8; */
+    font-weight: bold;
+    display:none;
+
 }
