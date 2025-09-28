@@ -10,7 +10,7 @@
 //     document.getElementById("clock-section").style.display = "block";
 // }
 function toggleMenu() {
-    document.getElementById("new-menu").classList.toggle("active");
+    document.getElementById("mainSec-nav").classList.toggle("active");
 }
 function addPlaylist() {
     const playlistName = prompt("Enter playlist name:");

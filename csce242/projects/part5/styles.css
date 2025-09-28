@@ -4,10 +4,13 @@ body {
 }
 
 html {
-    overflow-y: scroll;
-    scrollbar-color: #63F2D8 #0B0C10;
+    /* overflow-y: scroll;
+    scrollbar-color: #63F2D8 #0B0C10; */
 }
-
+#email h3{
+    text-shadow: none;
+    font-family:'Times New Roman', Times, serif;
+}
 ul {
     list-style: none;
     color: #63F2D8;
@@ -15,11 +18,19 @@ ul {
 }
 
 h2 {
-    font-size: 30px
-}
+    font-size: 30px;
 
+}
+h3{
+font-family: "Racing Sans One", sans-serif;
+    text-shadow: 0 0 0px #2ee, 0 0 0px #2ee, 0 0 10px #00ffff;
+
+
+}
 h1 {
-    font-size: 50px
+    font-size: 50px;
+    font-family: "Racing Sans One", sans-serif;
+
 }
 
 a {
@@ -38,7 +49,7 @@ body {
 main {
     display: block;
     overflow: auto;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
     scrollbar-color: #63F2D8 #0B0C10;
 }
 
@@ -48,8 +59,9 @@ main {
     background-color: rgba(11, 12, 16, 0.85);
     border: 4px solid #0B0C10;
     box-shadow: 3px 3px 10px 6px #0B0C10;
-    margin: 20px;
+    margin: 25px;
     padding: 10px;
+    margin-top:0;
     align-items: center;
 }
 
@@ -66,26 +78,43 @@ main {
 #create {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    padding: 10px;
+    /* padding: 10px; */
 
 }
 
 .create-header h1 {
-    font-size: 60px;
-}
+    font-size: 80px;
+    font-family: "Racing Sans One", sans-serif;
+    
 
+}
+.create-header{
+    margin-top:-60px;
+}
 h5 {
-    margin-top: 0;
+    margin-top: -40px;
     color: #F6F5F3
 }
 
 .movie {
     font-size: large;
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 
 .movie img {
     width: 60%;
+}
+
+/*SEARCH*/
+.search {
+    padding-left: 10px;
+    padding-right: 200px;
+    text-align: left;
+    background-color: #F6F5F3;
+    border: 2px solid #52a89f;
+    color:#0B0C10;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+
 }
 
 /*PROFILE*/
@@ -125,16 +154,18 @@ h5 {
     flex-direction: row;
 
 }
-#playlest-nav a{
- text-decoration: none;
- font-size:25px;
+
+#playlest-nav a {
+    text-decoration: none;
+    font-size: 25px;
 }
+
 #playlist-nav li {
     justify-content: space-between;
     margin-left: 40px;
     margin-right: 40px;
-    font-size:25px;
-        
+    font-size: 25px;
+
 
 }
 
@@ -204,12 +235,15 @@ h5 {
     /* box-shadow: 3px 3px 10px 2px #0B0C10; */
 
 }
-#title{
-    font-family:"Racing Sans One", sans-serif;
-    font-size:40px;
+
+#title {
+    font-family: "Racing Sans One", sans-serif;
+    text-shadow: 0 0 0px #2ee, 0 0 0px #2ee, 0 0 10px #00ffff;
     letter-spacing: 2px;
-    font-weight:600;
+    font-weight: 800;
+    margin-top: 0%;
 }
+
 .menu-btn {
     display: none;
 }
@@ -235,7 +269,7 @@ h5 {
     width: 80%;
     margin: -23%;
     margin-top: -23%;
-    padding-left: 90px;
+    padding-left: 0px;
 }
 
 /*HOME*/
@@ -284,7 +318,7 @@ h5 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    margin-top: 15px;
+    margin-top: 0px;
     height: 65%;
 }
 
@@ -321,6 +355,7 @@ h5 {
 
 #friends {
     flex: 1;
+    margin-top: 0;
 }
 
 #main-playlist {
@@ -330,7 +365,7 @@ h5 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 0 auto;
+    margin-top: 0;
 
 }
 
@@ -345,7 +380,7 @@ h5 {
     margin-top: 0px;
     padding-bottom: 40px;
     padding: 20px;
-    padding-top:20px;
+    padding-top: 20px;
     margin-left: -8px;
     margin-right: -8px;
     /* margin-bottom: -10%; */
@@ -388,9 +423,10 @@ h5 {
     /* margin-left: 60px;
     margin-right: 60px; */
 }
+
 /*NAV HAMBURGER*/
 .menu-btn {
-    display: block;
+    display: none;
     font-size: 28px;
     background: none;
     border: none;
@@ -423,6 +459,7 @@ h5 {
 #menu li {
     padding: 0px 0;
 }
+
 /*BLOG*/
 #main-blog {
     flex: 1;
@@ -432,8 +469,8 @@ h5 {
     box-shadow: 3px 3px 10px 6px #0B0C10;
     margin: 25px;
     padding: 10px;
-    margin-top:0px;
-        /* margin-bottom:5px; */
+    margin-top: 0px;
+    /* margin-bottom:5px; */
 
     align-items: center;
     caret-color: #63F2D8;
@@ -563,7 +600,7 @@ h5 {
 .contact {
     flex: 1;
     margin: 20px;
-    margin-top: 15px;
+    margin-top: 0px;
     margin-right: 5px;
     display: flex;
     flex-direction: column;
@@ -601,6 +638,7 @@ h5 {
     /* margin-top: 20px; */
     margin-left: 5%;
     padding: 20px;
+    margin-top:-30px;
     width: 70%;
     text-align: left;
     color: #63F2D8;
@@ -794,12 +832,12 @@ li {
 }
 
 
-#footer{
+#footer {
     text-align: center;
     background-color: rgba(11, 12, 16, 0.85);
     border-top: 2px solid #49A69C;
-    padding:10px;
-    color:#63F2D8
+    padding: 2px;
+    color: #63F2D8
 }
 
 @media (max-width: 768px) {
@@ -824,9 +862,14 @@ li {
         padding: 0;
     }
 
+    body {
+        height: 100vh;
+    }
+
     main {
         display: block;
         overflow: auto;
+        flex: 1;
     }
 
     /*HEADER*/
@@ -869,14 +912,6 @@ li {
         text-align: center;
     }
 
-    #new-menu.active {
-        display: flex;
-    }
-
-    #menu li {
-        padding: 3px 0;
-    }
-
     /*CONTACT*/
     .info h2 {
         margin-bottom: 20px;
@@ -891,15 +926,26 @@ li {
 
     #mainSec-nav {
         width: 95.4%;
-        display:none;
+        display: none;
     }
-    #mainSec-nav #sec-nav{
+
+    #sec-nav {
         flex-direction: column;
     }
 
+    #mainSec-nav.active {
+        display: flex;
+    }
+
+    /*FOOTER*/
+    /* #footer{
+        position:relative;
+        bottom:-2%;
+    } */
     /*BLOG*/
     #main-blog {
         width: 90%;
+        margin-top:20px;
     }
 
     .popular {
