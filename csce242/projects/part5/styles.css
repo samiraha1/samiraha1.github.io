@@ -7,10 +7,12 @@ html {
     /* overflow-y: scroll;
     scrollbar-color: #63F2D8 #0B0C10; */
 }
-#email h3{
+
+#email h3 {
     text-shadow: none;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
 }
+
 ul {
     list-style: none;
     color: #63F2D8;
@@ -21,12 +23,14 @@ h2 {
     font-size: 30px;
 
 }
-h3{
-font-family: "Racing Sans One", sans-serif;
+
+h3 {
+    font-family: "Racing Sans One", sans-serif;
     text-shadow: 0 0 0px #2ee, 0 0 0px #2ee, 0 0 10px #00ffff;
 
 
 }
+
 h1 {
     font-size: 50px;
     font-family: "Racing Sans One", sans-serif;
@@ -61,7 +65,7 @@ main {
     box-shadow: 3px 3px 10px 6px #0B0C10;
     margin: 25px;
     padding: 10px;
-    margin-top:0;
+    margin-top: 0;
     align-items: center;
 }
 
@@ -78,19 +82,21 @@ main {
 #create {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 0px;
     /* padding: 10px; */
 
 }
 
 .create-header h1 {
-    font-size: 80px;
+    font-size: 55px;
     font-family: "Racing Sans One", sans-serif;
-    
+    text-shadow: 0 0 0px #2ee, 0 0 0px #2ee, 0 0 10px #00ffff;
+}
 
+.create-header {
+    margin-top: -80px;
 }
-.create-header{
-    margin-top:-60px;
-}
+
 h5 {
     margin-top: -40px;
     color: #F6F5F3
@@ -105,6 +111,20 @@ h5 {
     width: 60%;
 }
 
+#movieBtn {
+    position: absolute;
+    top: 235px;
+    left: 170px;
+    font-size: 15px;
+    padding: 10px;
+    color: #63F2D8;
+    background: #0B0C10;
+    border: 2px solid #63F2D8;
+    cursor: pointer;
+    box-shadow: 0 0 0px #2ee, 0 0 0px #2ee, 0 0 10px #00ffff;
+
+}
+
 /*SEARCH*/
 .search {
     padding-left: 10px;
@@ -112,7 +132,7 @@ h5 {
     text-align: left;
     background-color: #F6F5F3;
     border: 2px solid #52a89f;
-    color:#0B0C10;
+    color: #0B0C10;
     /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 
 }
@@ -483,6 +503,7 @@ h5 {
     margin-top: 20px;
     text-align: center;
     color: #63F2D8;
+    text-shadow: 0 0 0px #2ee, 0 0 0px #2ee, 0 0 10px #00ffff;
     font-size: 35px;
 }
 
@@ -597,6 +618,11 @@ h5 {
     flex-wrap: wrap;
 }
 
+.contact h2,
+.info h2 {
+    text-shadow: 0 0 0px #2ee, 0 0 0px #2ee, 0 0 10px #00ffff;
+}
+
 .contact {
     flex: 1;
     margin: 20px;
@@ -638,7 +664,7 @@ h5 {
     /* margin-top: 20px; */
     margin-left: 5%;
     padding: 20px;
-    margin-top:-30px;
+    margin-top: -30px;
     width: 70%;
     text-align: left;
     color: #63F2D8;
@@ -685,6 +711,7 @@ h5 {
 /*DISCOVER*/
 .discover {
     color: #63F2D8;
+    text-shadow: 0 0 0px #2ee, 0 0 0px #2ee, 0 0 10px #00ffff;
 }
 
 #menu li a {
@@ -708,7 +735,7 @@ h5 {
 .p {
     padding: 40px;
     line-height: 1.7;
-    font-size: x-large;
+    font-size: 32px;
     color: #63F2D8;
 }
 
@@ -768,9 +795,14 @@ h5 {
 
 }
 
-.info p {
-    font-size: 20px;
+.fill {
+    font-size: 15px;
     padding-bottom: 90px;
+    margin:20px;
+    padding-right: 50%;
+    border:2px solid #63F2D8;
+    margin-top:0px;
+    margin-left:30px;
 }
 
 #main-contact h1 {
@@ -915,9 +947,14 @@ li {
     /*CONTACT*/
     .info h2 {
         margin-bottom: 20px;
-        margin-top: 10px;
+        margin-top: 40px;
     }
-
+    #search h2{
+        margin-bottom:7px;
+    }
+    #simple{
+        margin-top:20px;
+    }
     /*NAV*/
     #mainSec-nav a {
         margin-left: 20px;
@@ -938,14 +975,13 @@ li {
     }
 
     /*FOOTER*/
-    /* #footer{
-        position:relative;
-        bottom:-2%;
-    } */
+    #footer{
+        padding:10px;
+    }
     /*BLOG*/
     #main-blog {
         width: 90%;
-        margin-top:20px;
+        margin-top: 20px;
     }
 
     .popular {
@@ -1004,5 +1040,18 @@ li {
         align-items: center;
         margin-top: 0 auto;
 
+    }
+    /*HORROR*/
+    .create-header{
+        padding:0;
+        margin:0;
+    }
+    .create-header h5{
+        position:relative;
+        top:50px;
+
+    }
+    .movie{
+        margin-top:60px;
     }
 }
