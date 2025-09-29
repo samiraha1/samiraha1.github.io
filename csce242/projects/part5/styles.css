@@ -1054,4 +1054,8 @@ li {
     .movie{
         margin-top:60px;
     }
+
+    #title h1{
+        font-size:38px;
+    }
 }
