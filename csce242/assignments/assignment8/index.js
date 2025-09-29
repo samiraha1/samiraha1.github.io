@@ -10,38 +10,40 @@ const dogsAfter = {
     "Charlie": "images/dog3After.jpg",
     "Max": "images/dog4After.jpg"
 };
+console.log("Loading before image:", dogsBefore[name]);
+
 
 const image = document.getElementById("image");
 const dogAfter = document.getElementById("dogAfter");
 const title = document.getElementById("title");
-const close = document.getElementById("close");
+const closeImg = document.getElementById("close");
 const img = document.getElementById("img");
+const para = document.getElementById("adopt");
 
 for (let name in dogsBefore) {
     const dogDiv = document.createElement("div");
     dogDiv.classList.add("dog-style");
 
     const img = document.createElement("img");
-    img.classList.classList.add("img");
     img.src = dogsBefore[name];
     img.alt = name;
 
-    const caption = document.createElement("p");
-    caption.classList.add("par");
+    const caption = document.createElement("div");
+    caption.classList.add("adopt");
     caption.textContent = `please adopt ${name}`;
-    img.src = dogsAfter[name];
-    img.onclick = function () {
+    // img.src = dogsAfter[name];
+    dogDiv.onclick = function() {
         popup.classList.remove("hidden");
-        popupTitle.textContent = `${name} (Adopted 🎉)`;
+        popupTitle.textContent = `${name} after adoption`;
         popupImg.src = dogsAfter[name];
     };
 
     dogDiv.appendChild(img);
     dogDiv.appendChild(caption);
-    imageContainer.appendChild(dogDiv);
+    image.appendChild(dogDiv);
 }
 
-closeBtn.onclick = function () {
-    popup.classList.add("hidden");
+closeImg.onclick = function() {
+    dogAfter.classList.add("hidden");
 };
 
