@@ -12,6 +12,9 @@ class paintings{
         const heading = document.createElement("h4");
         heading.innerText= this.name;
         paintSection.appendChild(heading);
+        const image = document.createElement("img");
+        image.innerHTML= this.image;
+        paintSection.appendChild(image);
         return paintSection;
     }
 }
