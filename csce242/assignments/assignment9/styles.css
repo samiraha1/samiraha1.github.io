@@ -1,0 +1,36 @@
+html{
+    background:#D96C94;
+}
+/* main{
+    background: #F2C9E0;
+    color:#BF3F61;
+} */
+body{
+    background: #F2C9E0;
+    color:#BF3F61;
+}
+h3{
+    color:#D96C94
+}
+header{
+    text-align: center;
+}
+footer{
+    text-align:center;
+}
+.art{
+    background: #D98FAA;
+    padding:10px;
+    margin:10px;
+    flex:1;
+}
+#paint-list{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+@media (max-width: 768px) {
+    #paint-list{
+        flex-direction:column;
+    }
+}
