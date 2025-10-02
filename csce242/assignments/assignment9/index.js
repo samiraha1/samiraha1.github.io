@@ -61,7 +61,7 @@ window.onload = () => {
     let paintList = document.getElementById("paint-list");
     paints.push(new paintings("The Persistance of Memory", "Salvador Dali", "persistance.jpg", true));
     paints.push(new paintings("Woman with a Parasol", "Claude Monet", "womanWithParasol.jpg", false));
-    paints.push(new paintings("Cafe Terrace at Night", "Van Gogh", "cafe_terrace.jpg", true));
+    paints.push(new paintings("Cafe Terrace at Night", "Vincent Van Gogh", "cafe_terrace.jpg", true));
     paints.push(new paintings("Hybrid Variegated Pink and Scarlet Spider Chrysanthemum", "Keika Hasegawa", "scarlet_spider.jpg", false));
     paints.push(new paintings("The Amida Falls in the Far Reaches of the Kisokaidō Road", "Katsushika Hokusai", "amidaFalla.jpg", true));
 
