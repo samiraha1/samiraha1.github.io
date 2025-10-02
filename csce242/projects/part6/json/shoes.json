@@ -1,3 +1,17 @@
-[{
-    
-}]
+[
+    {
+        "_id": 1,
+        "name": "The Silence of The Lambs",
+        "director": "Jonathan Demme",
+        "release date": "February 14, 1991",
+        "RottenTomato": "Rating on Rotten Tomato: 95%",
+        "img": "images/silence of the lambs.jpg",
+        "rating": "4.5",
+        "reviews": [
+            "perfect shoe",
+            "I love this shoe",
+            "best shoe by best company",
+            "was a dissapointment"
+        ]
+    }
+]
