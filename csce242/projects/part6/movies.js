@@ -10,7 +10,7 @@ const getMovie = async () => {
 };
 
 const showMovie = async (movieData) => {
-    const movieList = document.getElementById("movieData");
+    const movieList = document.getElementById("movie");
     if (!movieList) {
         console.error("no element with id 'movie' dound in the DOM");
         return;
@@ -26,36 +26,6 @@ const showMovie = async (movieData) => {
     movieData.forEach((movie) => {
         movieList.appendChild(getMovieItem(movie));
     });
-    // const movieList = document.getElementById("movie");
-
-    // movieData.forEach(m => {
-    //     const div = document.createElement("div");
-    //     div.classList.add(div);
-
-    //     const title = document.createElement("h4");
-    //     title.textContent = m.name;
-
-    //     const p = document.createElement("p")
-    //     p.innerText = m.director;
-    //     p.innerText = m.releaseDate;
-    //     p.innerText = m.rottenTomato;
-
-    //     const img = document.createElement("img");
-    //     img.src = p.img;
-    //     img.alt = p.name;
-
-
-    //     div.append(title, p, img);
-    //     movieList.append(div);
-    // })
-    // let movies = await getMovie();
-
-    // let movieSection = document.getElementById("movies");
-
-    // movies.forEach((movie) => {
-    //     movieSection.append(getMovieItem(movie))
-    //     console.log(movie);
-    // });
 };
 
 const getMovieItem = (movie) => {
@@ -75,13 +45,13 @@ const getMovieItem = (movie) => {
     if(movie.releaseDate) {
         const releaseP = document.createElement("p");
         releaseP.classList.add("release");
-        releaseP.innerText = `Director: ${movie.releaseDate}`;
+        releaseP.innerText = `Release Date: ${movie.releaseDate}`;
         div.appendChild(releaseP);
     }
     if(movie.director) {
         const rateP = document.createElement("p");
         rateP.classList.add("rotten");
-        rateP.innerText = `Director: ${movie.rottenTomato}`;
+        rateP.innerText = `${movie.rottenTomato}`;
         div.appendChild(rateP);
     }
     if(movie.img || movie.image) {
@@ -91,16 +61,6 @@ const getMovieItem = (movie) => {
         img.classList.add("movie-img");
         div.appendChild(img)
     }
-    return div;
-
-    // let p = document.createElement("p")
-    // p.innerText = movie.director;
-    // p.innerText = movie.releaseDate;
-    // p.innerText = movie.rottenTomato;
-    // div.append(p);
-
-
-
     return div;
 }
 
