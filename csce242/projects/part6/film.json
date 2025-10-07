@@ -1,0 +1,74 @@
+[
+    {
+        "_id": 1,
+        "name": "The Silence of The Lambs",
+        "director": "Jonathan Demme",
+        "releaseDate": "February 14, 1991",
+        "rottenTomato": "Rating on Rotten Tomato: 95%",
+        "img": "images/silence of the lambs.jpg",
+        
+    },
+    {
+        "_id": 2,
+        "name": "The Silence of The Lambs",
+        "director": "Jonathan Demme",
+        "releaseDate": "February 14, 1991",
+        "rottenTomato": "Rating on Rotten Tomato: 95%",
+        "img": "images/silence of the lambs.jpg",
+        
+    },
+    {
+        "_id": 3,
+        "name": "The Silence of The Lambs",
+        "director": "Jonathan Demme",
+        "releaseDate": "February 14, 1991",
+        "rottenTomato": "Rating on Rotten Tomato: 95%",
+        "img": "images/silence of the lambs.jpg",
+        
+    },
+    {
+        "_id": 4,
+        "name": "The Silence of The Lambs",
+        "director": "Jonathan Demme",
+        "releaseDate": "February 14, 1991",
+        "rottenTomato": "Rating on Rotten Tomato: 95%",
+        "img": "images/silence of the lambs.jpg",
+        
+    },
+    {
+        "_id": 5,
+        "name": "The Silence of The Lambs",
+        "director": "Jonathan Demme",
+        "releaseDate": "February 14, 1991",
+        "rottenTomato": "Rating on Rotten Tomato: 95%",
+        "img": "images/silence of the lambs.jpg",
+        
+    },
+    {
+        "_id": 6,
+        "name": "The Silence of The Lambs",
+        "director": "Jonathan Demme",
+        "releaseDate": "February 14, 1991",
+        "rottenTomato": "Rating on Rotten Tomato: 95%",
+        "img": "images/silence of the lambs.jpg",
+        
+    },
+    {
+        "_id": 7,
+        "name": "The Silence of The Lambs",
+        "director": "Jonathan Demme",
+        "releaseDate": "February 14, 1991",
+        "rottenTomato": "Rating on Rotten Tomato: 95%",
+        "img": "images/silence of the lambs.jpg",
+        
+    },
+    {
+        "_id": 8,
+        "name": "The Silence of The Lambs",
+        "director": "Jonathan Demme",
+        "releaseDate": "February 14, 1991",
+        "rottenTomato": "Rating on Rotten Tomato: 95%",
+        "img": "images/silence of the lambs.jpg",
+        
+    }
+]
