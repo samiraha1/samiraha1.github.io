@@ -100,7 +100,14 @@ main {
 .hide-small {
     display:none;
 }
-
+/*Brwe*/
+#breweries {
+    background-color: #a0ccd8;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:10px;
+}
 /* Animations */
 #animation-fun {
     background:#a0ccd8;
