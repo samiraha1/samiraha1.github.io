@@ -84,12 +84,15 @@ main {
     display:flex;
     flex-direction: row;
     flex-wrap:wrap;
-    gap:40px;
+    gap:60px;
     margin:0%;
     justify-content: space-around;
-    /* margin-left: 5%; */
-    
-
+ }
+ #movie img{
+    display:block;
+    width:200px;
+    height:auto;
+    margin:20px;
  }
  .movie{
     /* flex:2; */
@@ -117,7 +120,7 @@ main {
 }
 
 .create-header {
-    margin-top: -80px;
+    margin-top: -70px;
 }
 
 h5 {
@@ -1071,11 +1074,11 @@ li {
     }
     .create-header h5{
         position:relative;
-        top:50px;
+        top:60px;
 
     }
     .movie{
-        margin-top:60px;
+        margin-top:40px;
     }
 
     #title h1{
