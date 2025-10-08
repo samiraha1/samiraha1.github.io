@@ -998,7 +998,7 @@ li {
     }
 
     #header button {
-        padding-left: 70px;
+        padding-left: 90px;
     }
 
     #title #new-menu {
@@ -1029,9 +1029,10 @@ li {
         display: none;
     }
 
-    #sec-nav {
+    #sec-nav ul{
         flex-direction: column;
     }
+    
 
     #mainSec-nav.active {
         display: flex;
@@ -1081,7 +1082,12 @@ li {
     background-color: rgba(11, 12, 16, 0.85); */
 
     }
-
+    .searchHome{
+        padding:2px;
+        padding-right:30%;
+        margin-left:-10px;
+        
+    }
     #friends h3 {
         font-size: 25px;
     }
