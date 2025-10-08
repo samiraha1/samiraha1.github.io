@@ -1,0 +1,37 @@
+ [{
+        "_id": 1,
+        "name": "10 Things I Hate About You",
+        "director": "",
+        "releaseDate": "",
+        "rottenTomato": "",
+        "img": "images/10_things_i_hate_about_you_poster.jpeg"
+        
+    },
+    {
+        "_id": 2,
+        "name": "La La Land",
+        "director": "",
+        "releaseDate": "",
+        "rottenTomato": "",
+        "img": "images/lalaland (2).jpg"
+        
+    },
+    {
+        "_id": 3,
+        "name": "The Fault in Our Stars",
+        "director": "",
+        "releaseDate": "",
+        "rottenTomato": "",
+        "img": "images/the fault in our stars.jpg"
+        
+    },
+    {
+        "_id": 4,
+        "name": "The Notebook",
+        "director": "",
+        "releaseDate": "",
+        "rottenTomato": "",
+        "img": "images/theNotebook.jpg"
+        
+    }
+]
