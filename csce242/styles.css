@@ -27,6 +27,13 @@ a {
     padding-top:10px;
 
 }
+.node a{
+    text-decoration:double;
+}
+.node{
+    display:flex;
+    flex-direction:column;
+}
 #columns a {
     color: #ca6382;
     text-decoration: none;
@@ -111,14 +118,14 @@ div:first-child {
 }
 
 #main-nav {
-    display: flex;
-    flex-wrap: wrap;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
     gap: 20px;
 }
 
 #projects {
-    display: flex;
-    flex-wrap: wrap;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
     gap: 20px;
 }
 #projects img {
