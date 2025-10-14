@@ -40,21 +40,32 @@
 
             <section class="one">
                 <h3>Our Location</h3>
-                <iframe
+                <iframe id="map"
                     src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d105855.01731358445!2d-81.11409118189931!3d33.993322533113066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x88f8bb2802562b89%3A0x1f5707bd271c887!2sColumbia%2C%20SC%2029201!3m2!1d33.99335!2d-81.03169!5e0!3m2!1sen!2sus!4v1760456990796!5m2!1sen!2sus"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </section>
             <section class="one">
-                <form action="https://api.web3forms.com/submit" method="POST">
+                <form action="https://api.web3forms.com/submit" method="POST" id="contact-form">
 
                     <!-- Replace with your Access Key -->
                     <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
 
                     <!-- Form Inputs. Each input must have a name="" attribute -->
+                    <p>
+                        <label for="name">Name: </label>
                     <input type="text" name="name" required>
+                    </p>
+                    <p>
+                        <label for="email">Email: </label>
+
                     <input type="email" name="email" required>
+                    
+                    </p>
+                    <p>
+                    <label for="message">Message: </label>                        
                     <textarea name="message" required></textarea>
+                    </p>
 
                     <!-- Honeypot Spam Protection -->
                     <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
@@ -68,6 +79,7 @@
             </section>
         </main>
     </div>
+    <script src="contact.js"></script>
 </body>
 
 </html>

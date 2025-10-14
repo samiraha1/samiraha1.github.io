@@ -256,7 +256,8 @@ footer p {
 }
 
 #map {
-    width:100%;
+    width:98%;
+    margin:5px;
     height:500px;
 }
 
