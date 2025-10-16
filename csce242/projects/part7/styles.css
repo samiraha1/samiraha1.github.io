@@ -8,36 +8,7 @@ html {
     scrollbar-color: #63F2D8 #0B0C10; */
 }
 
-#email h3 {
-    text-shadow: none;
-    font-family: 'Times New Roman', Times, serif;
-}
-#email p{
-    background:none;
-    color:#63F2D8;
-    border:none;
-    padding:0;
-}
-#email textarea{
-    padding-top:80px;
-    /* background:none; */
-    border:2px solid #63F2D8;
-    color:#63F2D8;
-    padding-left:50%;
 
-
-}
-#email input{
-    /* background:none; */
-    border:2px solid #63F2D8;
-    padding-right:80px;
-    color:#63F2D8;
-}
-.mail label{
-    position:relative;
-    top:-60px;
-    left:0px;
-}
 ul {
     list-style: none;
     color: #63F2D8;
@@ -629,6 +600,60 @@ h5 {
 
 
 /*CONTACT*/
+#email{
+    padding-top:10px;
+}
+#email h3 {
+    text-shadow: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+#email p{
+    background:none;
+    color:#63F2D8;
+    border:none;
+    padding:0;
+}
+#email textarea{
+    padding-top:80px;
+    /* background:none; */
+    border:2px solid #63F2D8;
+    color:#63F2D8;
+    padding-left:50%;
+
+
+}
+#email input{
+    /* background:none; */
+    border:2px solid #63F2D8;
+    padding-right:80px;
+    color:#63F2D8;
+}
+.mail{
+    display:flex;
+    flex-direction:column;
+}
+.mail label{
+    /* position:relative;
+    top:-60px;
+    left:0px; */
+    flex:1;
+    margin-bottom:2px;
+}
+.btn{
+    position:relative;
+    top:-15px;
+    right:-80%;
+    padding:5px;
+    border: 2px solid #63F2D8;
+    color:#0B0C10;
+}
+.infoName{
+    display:flex;
+    flex-direction:column;
+}
+.infoName label{
+    flex:1;
+}
 .search {
     display: block;
     text-align: left;
