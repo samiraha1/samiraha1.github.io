@@ -250,7 +250,40 @@ h5 {
         object-fit: cover;
     display:block; */
 }
+/*SPOTIFY*/
+#spotify-container {
+    /* position: fixed;
+    bottom: 20px;
+    right: 20px; */
+    z-index: 9999;
+    text-align: center;
+    background:none;
+  }
 
+  #spotify-player {
+    display: none;
+    width: 300px;
+    height: 80px;
+    border: none;
+    border-radius: 12px;
+    /* box-shadow: 0 4px 10px rgba(0,0,0,0.3); */
+  }
+
+  #play-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: none;
+    color: #63F2D8;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  #play-button:hover {
+    color: #49A69C;
+
+  }
 /*HEADER*/
 #header {
     display: flex;
@@ -294,6 +327,8 @@ h5 {
 .top {
     flex: 1;
     margin: 20px;
+    margin-right:0px;
+    margin-left:30px;
 }
 
 #header img {
@@ -576,6 +611,7 @@ h5 {
 
 .popular h2 {
     color: #63F2D8;
+    text-align: center;
 }
 
 .post {
