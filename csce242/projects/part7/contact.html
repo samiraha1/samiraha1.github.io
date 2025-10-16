@@ -61,10 +61,36 @@
         <div class="info">
             <h2>Fill out your information for more help:</h2>
             <div id="email">
-                <h3>Phone Number: 123 - 456 - 7890</h3>
-                <h3>Email: blahblahblah@gmail.com</h3>
-                <h3 class="h3">Fill Out:</h3>
-                <input class="fill" type="text" placeholder="Type here...">
+                <form action="https://api.web3forms.com/submit" method="POST" id="contact-form">
+
+                    <!-- Replace with your Access Key -->
+                    <input type="hidden" name="access_key" value="e84e3927-8b1a-4af9-b2d0-7f1c2d516fef">
+
+                    <!-- Form Inputs. Each input must have a name="" attribute -->
+                    <p>
+                        <label for="name">Name: </label>
+                        <input type="text" name="name" required>
+                    </p>
+                    <p>
+                        <label for="email">Email: </label>
+
+                        <input type="email" name="email" required>
+
+                    </p>
+                    <p class="mail">
+                        <label for="message">Message: </label>
+                        <textarea name="message" required></textarea>
+                    </p>
+
+                    <!-- Honeypot Spam Protection -->
+                    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+                    <!-- Custom Confirmation / Success Page -->
+                    <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
+
+                    <button type="submit">Submit Form</button>
+
+                </form>
             </div>
         </div>
     </main>

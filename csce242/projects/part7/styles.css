@@ -12,7 +12,33 @@ html {
     text-shadow: none;
     font-family: 'Times New Roman', Times, serif;
 }
+#email p{
+    background:none;
+    color:#63F2D8;
+    border:none;
+    padding:0;
+}
+#email textarea{
+    padding-top:40px;
+    /* background:none; */
+    border:2px solid #63F2D8;
+    color:#63F2D8;
+    padding-left:50%;
+    padding-bottom:
 
+
+}
+#email input{
+    /* background:none; */
+    border:2px solid #63F2D8;
+    padding-right:80px;
+    color:#63F2D8;
+}
+.mail label{
+    position:relative;
+    top:-60px;
+    left:0px;
+}
 ul {
     list-style: none;
     color: #63F2D8;
