@@ -2,7 +2,7 @@ const form = document.getElementById('contact-form');
 const result = document.getElementById('result');
 
 form.onsubmit = (event) => {
-  event.preventDefault(); // prevent page reload
+  event.preventDefault(); 
 
   const formData = new FormData(event.currentTarget);
   const object = Object.fromEntries(formData);
