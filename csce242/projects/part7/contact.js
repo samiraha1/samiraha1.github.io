@@ -37,7 +37,7 @@ form.onsubmit = (event) => {
       form.reset();
       setTimeout(() => {
         result.style.display = "none";
-      }, 4000);
+      }, 3000);
     });
 };
 

@@ -1101,12 +1101,20 @@ li {
     }
 
     /*CONTACT*/
+    .btn{
+        left:200px;
+    }
     .info h2 {
         margin-bottom: 20px;
         margin-top: 40px;
     }
     #search h2{
         margin-bottom:7px;
+    }
+    .search{
+        margin-left:13px;
+        padding-right: 50px;
+
     }
     #simple{
         margin-top:20px;
@@ -1140,12 +1148,16 @@ li {
         width: 90%;
         margin-top: 20px;
     }
+    #blog{
+        display:flex;
+        flex-direction:column;
+    }
 
     .popular {
         width: 90%;
         border-bottom: 2px solid #52a89f;
         border-top: 2px solid #52a89f;
-
+        flex:1;
         margin: 10px;
         padding: 10px;
 
@@ -1203,6 +1215,7 @@ li {
         margin-top: 0 auto;
 
     }
+    
     /*HORROR*/
     .create-header{
         padding:0;
