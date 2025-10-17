@@ -636,6 +636,13 @@ h5 {
 
 
 /*CONTACT*/
+#result {
+  display: none;
+  text-align: center;
+  margin-top: -10px;
+  color: #63F2D8;
+  font-weight: bold;
+}
 #email{
     padding-top:10px;
 }
@@ -650,11 +657,11 @@ h5 {
     padding:0;
 }
 #email textarea{
-    padding-top:80px;
+    padding-bottom:80px;
     /* background:none; */
     border:2px solid #63F2D8;
-    color:#63F2D8;
-    padding-left:50%;
+    color:#0B0C10;
+    padding-right:0%;5
 
 
 }
@@ -662,7 +669,7 @@ h5 {
     /* background:none; */
     border:2px solid #63F2D8;
     padding-right:80px;
-    color:#63F2D8;
+    color:#0B0C10;
 }
 .mail{
     display:flex;
