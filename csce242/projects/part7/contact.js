@@ -20,7 +20,6 @@ form.onsubmit = (event) => {
       const jsonResponse = await response.json();
 
       if (response.ok) {
-        // ✅ Show success message
         result.style.display = "block";
         result.innerHTML = "<h4>Successfully Submitted!</h4>";
       } else {
@@ -41,7 +40,6 @@ form.onsubmit = (event) => {
     });
 };
 
-// const form = document.getElementById('contact-form');
 
 // document.getElementById("contact-form").onsubmit = (event) => {
 //     event.preventDefault();
