@@ -19,27 +19,31 @@ body {
     border-top: 5px solid #ca6382; */
 
 }
+
 a {
     color: #ca6382;
     text-decoration: none;
     text-align: center;
     font-size: 25px;
-    padding-top:10px;
+    padding-top: 10px;
 
 }
-.node a{
-    text-decoration:double;
+
+.node a {
+    text-decoration: double;
 }
-.node{
-    display:flex;
-    flex-direction:column;
+
+.node {
+    display: flex;
+    flex-direction: column;
 }
+
 #columns a {
     color: #ca6382;
     text-decoration: none;
     text-align: center;
     font-size: 25px;
-    padding-top:10px;
+    padding-top: 10px;
 
 }
 
@@ -118,16 +122,17 @@ div:first-child {
 }
 
 #main-nav {
-    display:grid;
-    grid-template-columns: repeat(3,1fr);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
 
 #projects {
-    display:grid;
-    grid-template-columns: repeat(3,1fr);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
+
 #projects img {
     width: 400px;
     height: 310px;
@@ -136,8 +141,9 @@ div:first-child {
     object-fit: contain;
     display: block;
 }
-.project1{
-    flex:1;
+
+.project1 {
+    flex: 1;
     background: #8C2641;
     width: auto;
     margin: 8px;
@@ -150,6 +156,7 @@ div:first-child {
     margin: 0px;
     text-align: center;
 }
+
 .assignment {
     flex: 1;
 }
@@ -165,5 +172,16 @@ div:first-child {
     #main-nav h2 {
         text-align: center;
         padding: 2%;
+    }
+
+    #main-nav {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    #projects {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
     }
 }
